@@ -1,27 +1,30 @@
 class Solution {
+
     public String clearStars(String s) {
-        int [] leftCharFreq = new int[26];
-        char minChar = 'z';
-        StringBuilder sb = new StringBuilder();
-        for(char c : s.toCharArray()){
-            if(c!='*'){
-                sb.append(c);
-                leftCharFreq[c-'a']++;
-                if(c<=minChar){
-                    minChar=c;
+        Deque<Integer>[] cnt = new Deque[26];
+        for (int i = 0; i < 26; i++) {
+            cnt[i] = new ArrayDeque<>();
+        }
+        char[] arr = s.toCharArray();
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != '*') {
+                cnt[arr[i] - 'a'].push(i);
+            } else {
+                for (int j = 0; j < 26; j++) {
+                    if (!cnt[j].isEmpty()) {
+                        arr[cnt[j].pop()] = '*';
+                        break;
+                    }
                 }
-                continue;
-            }
-            sb.deleteCharAt(sb.lastIndexOf(""+minChar));
-            leftCharFreq[minChar-'a']--;
-            while(minChar!='z' && leftCharFreq[minChar-'a']==0){
-                minChar++;
             }
         }
-        return sb.toString();
+
+        StringBuilder ans = new StringBuilder();
+        for (char c : arr) {
+            if (c != '*') {
+                ans.append(c);
+            }
+        }
+        return ans.toString();
     }
 }
-
-// if several smallest chars, best to delete the closest (on its left)
-// traverse left to right - keep track of charFreq and smallest char on the left 
-// remove the smallest char on the left - now best way is to use a string builder - sb.lastIndexOf(char) - remove this
