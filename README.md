@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/GuptaDivij/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/GuptaDivij/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0739-daily-temperatures](https://github.com/GuptaDivij/Leetcode/tree/master/0739-daily-temperatures) |
+| [0792-binary-search](https://github.com/GuptaDivij/Leetcode/tree/master/0792-binary-search) |
 | [0883-car-fleet](https://github.com/GuptaDivij/Leetcode/tree/master/0883-car-fleet) |
 | [1217-relative-sort-array](https://github.com/GuptaDivij/Leetcode/tree/master/1217-relative-sort-array) |
 ## Monotonic Stack
@@ -66,4 +67,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1217-relative-sort-array](https://github.com/GuptaDivij/Leetcode/tree/master/1217-relative-sort-array) |
+## Binary Search
+|  |
+| ------- |
+| [0792-binary-search](https://github.com/GuptaDivij/Leetcode/tree/master/0792-binary-search) |
 <!---LeetCode Topics End-->
