@@ -4,11 +4,11 @@ class Solution {
         ListNode dummy = new ListNode(0, head);
         ListNode slow = dummy, fast = dummy;
         int i = 0;
-        while (i <= n) { 
+        while (i < n) { 
             fast = fast.next;
             i++;
         }
-        while(fast!=null){
+        while(fast.next!=null){
             fast = fast.next;
             slow = slow.next;
         }
