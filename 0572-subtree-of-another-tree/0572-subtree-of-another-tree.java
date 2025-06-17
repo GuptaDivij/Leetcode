@@ -15,15 +15,9 @@
  */
 class Solution {
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        queue.add(root);
-        while(!queue.isEmpty()){
-            TreeNode curr = queue.poll();
-            if(curr.val == subRoot.val && isSameTree(curr,subRoot)) return true;
-            if(curr.left!=null)queue.add(curr.left);
-            if(curr.right!=null)queue.add(curr.right);
-        }
-        return false;
+        if(root==null) return false;
+        if(root.val==subRoot.val && isSameTree(root, subRoot)) return true;
+        return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot);
     }
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
