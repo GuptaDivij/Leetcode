@@ -8,9 +8,7 @@ class MinStack {
     
     public void push(int val) {
         this.stack.push(val);
-        if(!minStack.isEmpty() && val>this.minStack.peek()){
-            this.minStack.push(this.minStack.peek());
-        }
+        if(!minStack.isEmpty() && val>this.minStack.peek()) this.minStack.push(this.minStack.peek());
         else this.minStack.push(val);
     }
     
