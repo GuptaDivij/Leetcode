@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/GuptaDivij/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/GuptaDivij/Leetcode/tree/master/0155-min-stack) |
+| [0816-design-hashset](https://github.com/GuptaDivij/Leetcode/tree/master/0816-design-hashset) |
 | [1023-time-based-key-value-store](https://github.com/GuptaDivij/Leetcode/tree/master/1023-time-based-key-value-store) |
 ## Hash Table
 |  |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/GuptaDivij/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/GuptaDivij/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/GuptaDivij/Leetcode/tree/master/0146-lru-cache) |
+| [0816-design-hashset](https://github.com/GuptaDivij/Leetcode/tree/master/0816-design-hashset) |
 | [1023-time-based-key-value-store](https://github.com/GuptaDivij/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1217-relative-sort-array](https://github.com/GuptaDivij/Leetcode/tree/master/1217-relative-sort-array) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/GuptaDivij/Leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
@@ -65,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/GuptaDivij/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0739-daily-temperatures](https://github.com/GuptaDivij/Leetcode/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/GuptaDivij/Leetcode/tree/master/0792-binary-search) |
+| [0816-design-hashset](https://github.com/GuptaDivij/Leetcode/tree/master/0816-design-hashset) |
 | [0883-car-fleet](https://github.com/GuptaDivij/Leetcode/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/GuptaDivij/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1217-relative-sort-array](https://github.com/GuptaDivij/Leetcode/tree/master/1217-relative-sort-array) |
@@ -111,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/GuptaDivij/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/GuptaDivij/Leetcode/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/GuptaDivij/Leetcode/tree/master/0146-lru-cache) |
+| [0816-design-hashset](https://github.com/GuptaDivij/Leetcode/tree/master/0816-design-hashset) |
 ## Two Pointers
 |  |
 | ------- |
@@ -138,4 +142,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/GuptaDivij/Leetcode/tree/master/0287-find-the-duplicate-number) |
+## Hash Function
+|  |
+| ------- |
+| [0816-design-hashset](https://github.com/GuptaDivij/Leetcode/tree/master/0816-design-hashset) |
 <!---LeetCode Topics End-->
