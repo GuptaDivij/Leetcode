@@ -17,13 +17,9 @@ class MinStack {
         this.minStack.pop();
     }
     
-    public int top() {
-        return this.stack.peek();
-    }
+    public int top() {return this.stack.peek();}
     
-    public int getMin() {
-        return this.minStack.peek();
-    }
+    public int getMin() {return this.minStack.peek();}
 }
 
 /**
