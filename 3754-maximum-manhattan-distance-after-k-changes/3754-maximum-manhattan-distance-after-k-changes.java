@@ -3,21 +3,18 @@ public class Solution {
     public int maxDistance(String s, int k) {
         int latitude = 0, longitude = 0, ans = 0;
         int n = s.length();
+        char[] chars = s.toCharArray();
+
         for (int i = 0; i < n; i++) {
-            char c = s.charAt(i);
-            switch (c) {
-                case 'N':
-                    latitude++;
-                    break;
-                case 'S':
-                    latitude--;
-                    break;
-                case 'E':
-                    longitude++;
-                    break;
-                case 'W':
-                    longitude--;
-                    break;
+            char c = chars[i];
+            if (c == 'N') {
+                latitude++;
+            } else if (c == 'S') {
+                latitude--;
+            } else if (c == 'E') {
+                longitude++;
+            } else if (c == 'W') {
+                longitude--;
             }
             ans = Math.max(
                 ans,
