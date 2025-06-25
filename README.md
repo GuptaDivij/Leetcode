@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/GuptaDivij/Leetcode/tree/master/1127-last-stone-weight) |
 | [1217-relative-sort-array](https://github.com/GuptaDivij/Leetcode/tree/master/1217-relative-sort-array) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/GuptaDivij/Leetcode/tree/master/2144-maximum-difference-between-increasing-elements) |
+| [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/GuptaDivij/Leetcode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/GuptaDivij/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/GuptaDivij/Leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/GuptaDivij/Leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/GuptaDivij/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/GuptaDivij/Leetcode/tree/master/1023-time-based-key-value-store) |
+| [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/GuptaDivij/Leetcode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/GuptaDivij/Leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 ## Matrix
 |  |
