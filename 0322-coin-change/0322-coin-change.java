@@ -1,5 +1,8 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
+        if(amount == 0) return 0;
+        if(coins.length==1 && amount%coins[0]!=0) return -1;
+        else if(coins.length==1) return amount/coins[0];
         int [] allAmountMinimums = new int[amount+1];
         Arrays.fill(allAmountMinimums, amount + 1); 
         allAmountMinimums[0]=0;
