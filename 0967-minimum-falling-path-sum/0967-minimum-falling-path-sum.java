@@ -2,9 +2,7 @@ class Solution {
     public int minFallingPathSum(int[][] matrix) {
         int n = matrix.length;
         int res = Integer.MAX_VALUE;
-        if(n==1){
-            for(int i = 0; i<n; i++) res = Math.min(res, matrix[0][i]);
-        }
+        if(n==1) for(int i = 0; i<n; i++) res = Math.min(res, matrix[0][i]);
         for(int i = n-2; i>=0; i--){
             for(int j = 0; j<n; j++){
                 int down = matrix[i+1][j];
