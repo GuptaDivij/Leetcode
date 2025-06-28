@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0409-longest-palindrome](https://github.com/GuptaDivij/Leetcode/tree/master/0409-longest-palindrome) |
 | [0525-contiguous-array](https://github.com/GuptaDivij/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/GuptaDivij/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0740-delete-and-earn](https://github.com/GuptaDivij/Leetcode/tree/master/0740-delete-and-earn) |
 | [0816-design-hashset](https://github.com/GuptaDivij/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/GuptaDivij/Leetcode/tree/master/0817-design-hashmap) |
 | [1023-time-based-key-value-store](https://github.com/GuptaDivij/Leetcode/tree/master/1023-time-based-key-value-store) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/GuptaDivij/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/GuptaDivij/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0739-daily-temperatures](https://github.com/GuptaDivij/Leetcode/tree/master/0739-daily-temperatures) |
+| [0740-delete-and-earn](https://github.com/GuptaDivij/Leetcode/tree/master/0740-delete-and-earn) |
 | [0792-binary-search](https://github.com/GuptaDivij/Leetcode/tree/master/0792-binary-search) |
 | [0816-design-hashset](https://github.com/GuptaDivij/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/GuptaDivij/Leetcode/tree/master/0817-design-hashmap) |
@@ -335,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/GuptaDivij/Leetcode/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/GuptaDivij/Leetcode/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0518-coin-change-ii) |
+| [0740-delete-and-earn](https://github.com/GuptaDivij/Leetcode/tree/master/0740-delete-and-earn) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/GuptaDivij/Leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 ## Enumeration
 |  |
