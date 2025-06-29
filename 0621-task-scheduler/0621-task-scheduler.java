@@ -1,23 +1,29 @@
 class Solution {
     public int leastInterval(char[] tasks, int n) {
-        int[] freq = new int[26];
-        for (char ch : tasks) freq[ch - 'A']++;
-        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
-        for (int i = 0; i < 26; i++) if (freq[i] > 0) pq.offer(freq[i]);
+        // Counter array to store the frequency of each task
+        int[] counter = new int[26];
+        int maximum = 0;
+        int maxCount = 0;
 
-        int time = 0;
-        while (!pq.isEmpty()) {
-            int cycle = n + 1;
-            List<Integer> store = new ArrayList<>();
-            int taskCount = 0;
-            while (cycle-- > 0 && !pq.isEmpty()) {
-                int currentFreq = pq.poll();
-                if (currentFreq > 1) store.add(currentFreq - 1);
-                taskCount++;
+        // Traverse through tasks to calculate task frequencies
+        for (char task : tasks) {
+            counter[task - 'A']++;
+            if (maximum == counter[task - 'A']) {
+                maxCount++;
             }
-            store.forEach(pq::offer);
-            time += (pq.isEmpty() ? taskCount : n + 1);
+            else if (maximum < counter[task - 'A']) {
+                maximum = counter[task - 'A'];
+                maxCount = 1;
+            }
         }
-        return time;
+        
+        // Calculate empty slots, available tasks, and idles needed
+        int partCount = maximum - 1;
+        int partLength = n - (maxCount - 1);
+        int emptySlots = partCount * partLength;
+        int availableTasks = tasks.length - maximum * maxCount;
+        int idles = Math.max(0, emptySlots - availableTasks);
+        
+        return tasks.length + idles;
     }
 }
