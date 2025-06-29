@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0409-longest-palindrome](https://github.com/GuptaDivij/Leetcode/tree/master/0409-longest-palindrome) |
 | [0525-contiguous-array](https://github.com/GuptaDivij/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/GuptaDivij/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
 | [0740-delete-and-earn](https://github.com/GuptaDivij/Leetcode/tree/master/0740-delete-and-earn) |
 | [0816-design-hashset](https://github.com/GuptaDivij/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/GuptaDivij/Leetcode/tree/master/0817-design-hashmap) |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/GuptaDivij/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/GuptaDivij/Leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/GuptaDivij/Leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
@@ -111,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0518-coin-change-ii) |
 | [0525-contiguous-array](https://github.com/GuptaDivij/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/GuptaDivij/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
 | [0739-daily-temperatures](https://github.com/GuptaDivij/Leetcode/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/GuptaDivij/Leetcode/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/GuptaDivij/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
@@ -143,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/GuptaDivij/Leetcode/tree/master/0049-group-anagrams) |
+| [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
 | [0883-car-fleet](https://github.com/GuptaDivij/Leetcode/tree/master/0883-car-fleet) |
 | [0948-sort-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/GuptaDivij/Leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -208,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0409-longest-palindrome](https://github.com/GuptaDivij/Leetcode/tree/master/0409-longest-palindrome) |
+| [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/GuptaDivij/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/GuptaDivij/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/GuptaDivij/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -310,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/GuptaDivij/Leetcode/tree/master/1014-k-closest-points-to-origin) |
