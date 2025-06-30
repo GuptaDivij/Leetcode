@@ -1,26 +1,45 @@
+import java.util.*;
+
 class Twitter {
-    private HashMap<Integer, HashSet<Integer>> followList;
-    private List<Tweet> posts;
+    private static int timestamp = 0;
+
+    // user -> set of followees
+    private Map<Integer, Set<Integer>> followList;
+
+    // user -> list of tweets
+    private Map<Integer, List<Tweet>> userTweets;
+
+    // Max number of tweets in feed
+    private static final int FEED_SIZE = 10;
 
     public Twitter() {
-        posts = new ArrayList<>();
         followList = new HashMap<>();
+        userTweets = new HashMap<>();
     }
 
     public void postTweet(int userId, int tweetId) {
-        posts.add(new Tweet(tweetId, userId));
+        // Auto-follow self
+        follow(userId, userId);
+
+        userTweets.putIfAbsent(userId, new ArrayList<>());
+        userTweets.get(userId).add(new Tweet(tweetId, timestamp++, userId));
     }
 
     public List<Integer> getNewsFeed(int userId) {
         List<Integer> feed = new ArrayList<>();
-        HashSet<Integer> followees = followList.getOrDefault(userId, new HashSet<>());
-        followees.add(userId);  
+        PriorityQueue<Tweet> maxHeap = new PriorityQueue<>((a, b) -> b.timestamp - a.timestamp);
 
-        for (int i = posts.size() - 1; i >= 0 && feed.size() < 10; i--) {
-            Tweet tweet = posts.get(i);
-            if (followees.contains(tweet.getUserID())) {
-                feed.add(tweet.getTweetID());
+        Set<Integer> followees = followList.getOrDefault(userId, new HashSet<>());
+
+        for (int followee : followees) {
+            List<Tweet> tweets = userTweets.getOrDefault(followee, new ArrayList<>());
+            for (int i = tweets.size() - 1; i >= 0 && i >= tweets.size() - FEED_SIZE; i--) {
+                maxHeap.offer(tweets.get(i));
             }
+        }
+
+        while (!maxHeap.isEmpty() && feed.size() < FEED_SIZE) {
+            feed.add(maxHeap.poll().id);
         }
 
         return feed;
@@ -32,26 +51,21 @@ class Twitter {
     }
 
     public void unfollow(int followerId, int followeeId) {
+        if (followerId == followeeId) return; // cannot unfollow self
         if (followList.containsKey(followerId)) {
             followList.get(followerId).remove(followeeId);
         }
     }
 
-    class Tweet {
-        private int id;
-        private int user;
+    private static class Tweet {
+        int id;
+        int timestamp;
+        int userId;
 
-        public Tweet(int id, int user) {
+        public Tweet(int id, int timestamp, int userId) {
             this.id = id;
-            this.user = user;
-        }
-
-        public int getTweetID() {
-            return id;
-        }
-
-        public int getUserID() {
-            return user;
+            this.timestamp = timestamp;
+            this.userId = userId;
         }
     }
 }
