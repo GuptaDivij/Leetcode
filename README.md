@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/GuptaDivij/Leetcode/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/GuptaDivij/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0355-design-twitter](https://github.com/GuptaDivij/Leetcode/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0816-design-hashset](https://github.com/GuptaDivij/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/GuptaDivij/Leetcode/tree/master/0817-design-hashmap) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/GuptaDivij/Leetcode/tree/master/0146-lru-cache) |
 | [0205-isomorphic-strings](https://github.com/GuptaDivij/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0290-word-pattern](https://github.com/GuptaDivij/Leetcode/tree/master/0290-word-pattern) |
+| [0355-design-twitter](https://github.com/GuptaDivij/Leetcode/tree/master/0355-design-twitter) |
 | [0409-longest-palindrome](https://github.com/GuptaDivij/Leetcode/tree/master/0409-longest-palindrome) |
 | [0525-contiguous-array](https://github.com/GuptaDivij/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/GuptaDivij/Leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/GuptaDivij/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/GuptaDivij/Leetcode/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/GuptaDivij/Leetcode/tree/master/0146-lru-cache) |
+| [0355-design-twitter](https://github.com/GuptaDivij/Leetcode/tree/master/0355-design-twitter) |
 | [0816-design-hashset](https://github.com/GuptaDivij/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/GuptaDivij/Leetcode/tree/master/0817-design-hashmap) |
 ## Two Pointers
@@ -319,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0355-design-twitter](https://github.com/GuptaDivij/Leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0948-sort-an-array) |
