@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/GuptaDivij/Leetcode/tree/master/0290-word-pattern) |
 | [0355-design-twitter](https://github.com/GuptaDivij/Leetcode/tree/master/0355-design-twitter) |
 | [0409-longest-palindrome](https://github.com/GuptaDivij/Leetcode/tree/master/0409-longest-palindrome) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0525-contiguous-array](https://github.com/GuptaDivij/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/GuptaDivij/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/GuptaDivij/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0287-find-the-duplicate-number](https://github.com/GuptaDivij/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0322-coin-change](https://github.com/GuptaDivij/Leetcode/tree/master/0322-coin-change) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0498-diagonal-traverse](https://github.com/GuptaDivij/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0518-coin-change-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0518-coin-change-ii) |
 | [0525-contiguous-array](https://github.com/GuptaDivij/Leetcode/tree/master/0525-contiguous-array) |
