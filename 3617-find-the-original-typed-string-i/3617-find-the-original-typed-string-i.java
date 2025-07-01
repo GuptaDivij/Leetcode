@@ -1,17 +1,12 @@
 class Solution {
+
     public int possibleStringCount(String word) {
-        int res = 1;
-        int i = 0;
-        while(i<word.length()-1){
-            int ct = 1;
-            while(ct+i<word.length() && word.charAt(i)==word.charAt(ct+i)) ct++;
-            i+=ct;
-            res += ct-1;
+        int n = word.length(), ans = 1;
+        for (int i = 1; i < n; ++i) {
+            if (word.charAt(i - 1) == word.charAt(i)) {
+                ++ans;
+            }
         }
-        return res;
+        return ans;
     }
 }
-
-// 0 + 2 + 4 - 1 common = 5
-// 1 + (1) + (3)
-// 1 + (3)
