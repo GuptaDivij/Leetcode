@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/GuptaDivij/Leetcode/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0409-longest-palindrome](https://github.com/GuptaDivij/Leetcode/tree/master/0409-longest-palindrome) |
+| [0979-di-string-match](https://github.com/GuptaDivij/Leetcode/tree/master/0979-di-string-match) |
 | [1023-time-based-key-value-store](https://github.com/GuptaDivij/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/GuptaDivij/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/GuptaDivij/Leetcode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/GuptaDivij/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [0948-sort-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0948-sort-an-array) |
 | [0967-minimum-falling-path-sum](https://github.com/GuptaDivij/Leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [0979-di-string-match](https://github.com/GuptaDivij/Leetcode/tree/master/0979-di-string-match) |
 | [1014-k-closest-points-to-origin](https://github.com/GuptaDivij/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/GuptaDivij/Leetcode/tree/master/1127-last-stone-weight) |
 | [1217-relative-sort-array](https://github.com/GuptaDivij/Leetcode/tree/master/1217-relative-sort-array) |
@@ -253,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/GuptaDivij/Leetcode/tree/master/0143-reorder-list) |
 | [0287-find-the-duplicate-number](https://github.com/GuptaDivij/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0979-di-string-match](https://github.com/GuptaDivij/Leetcode/tree/master/0979-di-string-match) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/GuptaDivij/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 ## Recursion
@@ -268,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/GuptaDivij/Leetcode/tree/master/0011-container-with-most-water) |
 | [0409-longest-palindrome](https://github.com/GuptaDivij/Leetcode/tree/master/0409-longest-palindrome) |
 | [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
+| [0979-di-string-match](https://github.com/GuptaDivij/Leetcode/tree/master/0979-di-string-match) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/GuptaDivij/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/GuptaDivij/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/GuptaDivij/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
