@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/GuptaDivij/Leetcode/tree/master/0049-group-anagrams) |
+| [0131-palindrome-partitioning](https://github.com/GuptaDivij/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0205-isomorphic-strings](https://github.com/GuptaDivij/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0290-word-pattern](https://github.com/GuptaDivij/Leetcode/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -407,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/GuptaDivij/Leetcode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/GuptaDivij/Leetcode/tree/master/0070-climbing-stairs) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/GuptaDivij/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0131-palindrome-partitioning](https://github.com/GuptaDivij/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/GuptaDivij/Leetcode/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/GuptaDivij/Leetcode/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0518-coin-change-ii) |
@@ -453,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/GuptaDivij/Leetcode/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/GuptaDivij/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/GuptaDivij/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/GuptaDivij/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 ## Sliding Window
 |  |
