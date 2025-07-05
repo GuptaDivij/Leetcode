@@ -4,10 +4,9 @@ class Solution {
         for(int n : arr){
             if(n<temp.length) temp[n]++;
         }
-        int ans = -1;
-        for(int i = 1; i<temp.length; i++) {
-            if(temp[i]==i) ans = Math.max(ans, i); 
+        for(int i = temp.length-1; i>=1; i--) {
+            if(temp[i]==i) return i;
         }
-        return ans;
+        return -1;
     }
 }
