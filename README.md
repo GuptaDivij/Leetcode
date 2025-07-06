@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0409-longest-palindrome](https://github.com/GuptaDivij/Leetcode/tree/master/0409-longest-palindrome) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0525-contiguous-array](https://github.com/GuptaDivij/Leetcode/tree/master/0525-contiguous-array) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/GuptaDivij/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/GuptaDivij/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0518-coin-change-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0518-coin-change-ii) |
 | [0525-contiguous-array](https://github.com/GuptaDivij/Leetcode/tree/master/0525-contiguous-array) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/GuptaDivij/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
@@ -196,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/GuptaDivij/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/GuptaDivij/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0295-find-median-from-data-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0594-longest-harmonious-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
 | [0883-car-fleet](https://github.com/GuptaDivij/Leetcode/tree/master/0883-car-fleet) |
@@ -222,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/GuptaDivij/Leetcode/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/GuptaDivij/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0792-binary-search](https://github.com/GuptaDivij/Leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/GuptaDivij/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/GuptaDivij/Leetcode/tree/master/1023-time-based-key-value-store) |
@@ -264,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/GuptaDivij/Leetcode/tree/master/0143-reorder-list) |
 | [0287-find-the-duplicate-number](https://github.com/GuptaDivij/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0979-di-string-match](https://github.com/GuptaDivij/Leetcode/tree/master/0979-di-string-match) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/GuptaDivij/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
