@@ -5,18 +5,20 @@ class Solution {
             if(map.containsKey(n)) map.put(n, true); // it was seen before, and has a duplicate, multiple values
             else map.put(n, false); // we are seeing it for the first time
         }
-        Arrays.sort(nums);
+        HashSet<Integer> seen = new HashSet<>();
         int count = 0;
 
+        // O(nlogn) to O(n) 
         // 1, 1, 1, 1, 1
         for(int i = 0; i<nums.length;i++){
-            if(i>0 && nums[i] == nums[i-1]) continue; // duplicate values
-            if(k==0){
-                if(map.get(nums[i])) count++;
-                continue;
+            if (seen.contains(nums[i])) continue;
+            seen.add(nums[i]);
+            if (k == 0) {
+                if (map.get(nums[i])) count++; // count if duplicate exists
+            } else {
+                int targetPlus = nums[i] + k;
+                if (map.containsKey(targetPlus)) count++;
             }
-            int targetPlus = k+nums[i];
-            if(map.containsKey(targetPlus)) count++;
         }
         return count;
     }
