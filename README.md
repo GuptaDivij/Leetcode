@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/GuptaDivij/Leetcode/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/GuptaDivij/Leetcode/tree/master/0013-roman-to-integer) |
+| [0050-powx-n](https://github.com/GuptaDivij/Leetcode/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/GuptaDivij/Leetcode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/GuptaDivij/Leetcode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/GuptaDivij/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -282,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/GuptaDivij/Leetcode/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/GuptaDivij/Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
+| [0050-powx-n](https://github.com/GuptaDivij/Leetcode/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/GuptaDivij/Leetcode/tree/master/0143-reorder-list) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/GuptaDivij/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Greedy
