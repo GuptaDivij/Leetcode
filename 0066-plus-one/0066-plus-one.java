@@ -7,7 +7,7 @@ class Solution {
         int carry = 0;
         for (int i = digits.length - 1; i >= 0; i--) {
             int sum = digits[i] + carry;
-            if (i == digits.length - 1) sum++;  // plus one on the last digit
+            if (i == digits.length - 1) sum++;  
             carry = sum / 10;
             digits[i] = sum % 10;
         }
