@@ -152,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/GuptaDivij/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/GuptaDivij/Leetcode/tree/master/0162-find-peak-element) |
 | [0198-house-robber](https://github.com/GuptaDivij/Leetcode/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0213-house-robber-ii) |
 | [0238-product-of-array-except-self](https://github.com/GuptaDivij/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/GuptaDivij/Leetcode/tree/master/0287-find-the-duplicate-number) |
@@ -461,6 +462,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/GuptaDivij/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/GuptaDivij/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/GuptaDivij/Leetcode/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/GuptaDivij/Leetcode/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0518-coin-change-ii) |
 | [0740-delete-and-earn](https://github.com/GuptaDivij/Leetcode/tree/master/0740-delete-and-earn) |
