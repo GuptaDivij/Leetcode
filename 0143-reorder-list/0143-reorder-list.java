@@ -10,14 +10,16 @@
  */
 class Solution {
     public void reorderList(ListNode head) {
-        if (head == null || head.next == null) return;
         ListNode slow = head;
         ListNode fast = head;
+
+        // move to the mid point
         while(fast!=null && fast.next!=null){
             slow = slow.next;
             fast = fast.next.next;
         }
-        // slow is now the midpoint - reverse from slow to end
+
+        // need to reverse from mid to end
         ListNode prev = null;
         while(slow!=null){
             ListNode temp = slow.next;
@@ -25,14 +27,16 @@ class Solution {
             prev = slow;
             slow = temp;
         }
-        ListNode curr = head;
-        while (prev.next!=null){
-            ListNode temp1 = curr.next;
-            ListNode temp2 = prev.next;
-            curr.next = prev;
-            prev.next = temp1;
-            curr = temp1;
-            prev = temp2;
+
+        // prev is at the mid now such that after prev everything is in reverse
+        ListNode first = head, second = prev;
+        while (second.next != null) {
+            ListNode temp1 = first.next;
+            ListNode temp2 = second.next;
+            first.next = second;
+            second.next = temp1;
+            first = temp1;
+            second = temp2;
         }
     }
 }
