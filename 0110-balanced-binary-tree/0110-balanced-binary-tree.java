@@ -14,18 +14,23 @@
  * }
  */
 class Solution {
-    private int height(TreeNode root) {
-        if (root == null) {
-            return -1;
-        }
-        return 1 + Math.max(height(root.left), height(root.right));
+    boolean isBalancedOrNot;
+    public boolean isBalanced(TreeNode root) {
+        isBalancedOrNot = true;
+        isBalancedHelper(root);
+        return isBalancedOrNot;
     }
 
-    public boolean isBalanced(TreeNode root) {
-        if (root == null) return true;
-        return (
-            Math.abs(height(root.left) - height(root.right)) <= 1 &&
-            isBalanced(root.left) && isBalanced(root.right)
-        );
+    public int isBalancedHelper(TreeNode root){
+        if(root == null) return 0;
+        int left = isBalancedHelper(root.left);
+        int right = isBalancedHelper(root.right);
+        if(Math.abs(left-right) > 1) isBalancedOrNot = false;
+        return Math.max(left, right) + 1; // one is to include the current node
     }
 }
+
+// 2 height calls - for left and right
+// difference in the height is 1 >= if so return true, else I return false.
+// base case when it node is null
+// O(n) & O(height)
