@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/GuptaDivij/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
+| [0690-employee-importance](https://github.com/GuptaDivij/Leetcode/tree/master/0690-employee-importance) |
 | [0740-delete-and-earn](https://github.com/GuptaDivij/Leetcode/tree/master/0740-delete-and-earn) |
 | [0816-design-hashset](https://github.com/GuptaDivij/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/GuptaDivij/Leetcode/tree/master/0817-design-hashmap) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/GuptaDivij/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
+| [0690-employee-importance](https://github.com/GuptaDivij/Leetcode/tree/master/0690-employee-importance) |
 | [0739-daily-temperatures](https://github.com/GuptaDivij/Leetcode/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/GuptaDivij/Leetcode/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/GuptaDivij/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
@@ -395,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0690-employee-importance](https://github.com/GuptaDivij/Leetcode/tree/master/0690-employee-importance) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
@@ -415,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0690-employee-importance](https://github.com/GuptaDivij/Leetcode/tree/master/0690-employee-importance) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -427,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/GuptaDivij/Leetcode/tree/master/0322-coin-change) |
+| [0690-employee-importance](https://github.com/GuptaDivij/Leetcode/tree/master/0690-employee-importance) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
