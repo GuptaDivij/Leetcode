@@ -31,6 +31,6 @@ class Solution {
             }
             if (rottedThisMinute) minutes++;
         }
-        return freshCount == 0 ? minutes : -1;
+        return -1;
     }
 }
