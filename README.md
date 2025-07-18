@@ -404,6 +404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0690-employee-importance](https://github.com/GuptaDivij/Leetcode/tree/master/0690-employee-importance) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1035-cousins-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -426,6 +427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0690-employee-importance](https://github.com/GuptaDivij/Leetcode/tree/master/0690-employee-importance) |
 | [0733-flood-fill](https://github.com/GuptaDivij/Leetcode/tree/master/0733-flood-fill) |
+| [1035-cousins-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/GuptaDivij/Leetcode/tree/master/0542-01-matrix) |
 | [0690-employee-importance](https://github.com/GuptaDivij/Leetcode/tree/master/0690-employee-importance) |
 | [0733-flood-fill](https://github.com/GuptaDivij/Leetcode/tree/master/0733-flood-fill) |
+| [1035-cousins-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
@@ -466,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1035-cousins-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## String Matching
 |  |
