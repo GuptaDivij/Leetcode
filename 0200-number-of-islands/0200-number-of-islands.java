@@ -1,3 +1,10 @@
+// Time Complexity : O(m * n), where m is the number of rows and n is the number of columns in the grid.
+// Space Complexity : O(m * n) in the worst case for the queue used in BFS.
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Approach: I visit each index, if it is land, I make all neighboring land cells as water using BFS. This makes sure all the land for this island is compressed into one. I change all 1s to 0s to mark them as visited. I count the number of times I start a BFS, which gives the number of islands.
+
 class Solution {
     public int numIslands(char[][] grid) {
         if (grid == null || grid.length == 0) return 0;
