@@ -1,9 +1,7 @@
 class Solution {
     private List<List<String>> res;
-    private String s;
     public List<List<String>> partition(String s) {
         res = new ArrayList<>();
-        this.s = s;
         helper(s.toCharArray(), 0, new ArrayList<>());
         return res;
     }
@@ -15,7 +13,7 @@ class Solution {
         }
         for(int i = idx; i<arr.length; i++){
             if(isPalindrome(arr, idx, i)){
-                list.add(s.substring(idx, i+1));
+                list.add(new String(arr, idx, i - idx + 1));
                 helper(arr, i + 1, list);
                 list.remove(list.size() - 1);
             } 
