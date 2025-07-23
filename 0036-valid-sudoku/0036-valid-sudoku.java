@@ -1,26 +1,19 @@
 class Solution {
     public boolean isValidSudoku(char[][] board) {
-        // 3 checks - rows, columns, boxes
-        // for the size nxn 
-        int n = board.length; 
-
-        // time - O(n^2)
-        // space - O(n)
-
-        // check the rows
-        for(int i = 0; i<n; i++){
+        // check for rows
+        for(int i = 0; i<9; i++){
             HashSet<Character> setRows = new HashSet<>();
-            for(int j = 0; j<n; j++){
+            for(int j = 0; j<9; j++){
                 if(board[i][j] =='.') continue;
                 if(setRows.contains(board[i][j])) return false;
                 setRows.add(board[i][j]);
             }
         }
 
-        // columns
-        for(int j = 0; j<n; j++){
+        // check for columns
+        for(int j = 0; j<9; j++){
             HashSet<Character> setCols = new HashSet<>();
-            for(int i = 0; i<n; i++){
+            for(int i = 0; i<9; i++){
                 if(board[i][j] =='.') continue;
                 if(setCols.contains(board[i][j])) return false;
                 setCols.add(board[i][j]);
@@ -28,15 +21,11 @@ class Solution {
         }
 
         // check for the boxes
-        // n should always be a square number
-        for(int i = 0; i<n; i+=Math.sqrt(n)){
-            // basically now I am on the top left of the box
-            // this should be the starting point of the box
-            for(int j = 0; j<n; j+=Math.sqrt(n)){
-                // i1 and j1 
+        for(int i = 0; i<9; i+=3){
+            for(int j = 0; j<9; j+=3){
                 HashSet<Character> setBoxes = new HashSet<>();
-                for(int i1 = i; i1<i+Math.sqrt(n); i1++){
-                    for(int j1 = j; j1<j+Math.sqrt(n); j1++){
+                for(int i1 = i; i1<i+3; i1++){
+                    for(int j1 = j; j1<j+3; j1++){
                         if(board[i1][j1] =='.') continue;
                         if(setBoxes.contains(board[i1][j1])) return false;
                         setBoxes.add(board[i1][j1]);
