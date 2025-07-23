@@ -1,29 +1,30 @@
 class Solution {
+    private List<List<String>> res;
+    private String s;
     public List<List<String>> partition(String s) {
-        List<String> list = new ArrayList<>();
-		List<List<String>> ans = new ArrayList<>();
-        partition(s, list, ans);
-        return ans;
-        
+        res = new ArrayList<>();
+        this.s = s;
+        helper(s.toCharArray(), 0, new ArrayList<>());
+        return res;
     }
-    public static void partition(String ques, List<String> list, List<List<String>> ans) {
-		if (ques.length() == 0) {
-			ans.add(new ArrayList<>(list));
-			return;
-		}
-		for (int i = 1; i <= ques.length(); i++) {
-			String s = ques.substring(0, i);
-			if (palindrome(s) == true) {
-				list.add(s);
-				partition(ques.substring(i), list, ans);
-				list.remove(list.size() - 1);
-			}
-		}
-	}
 
-	public static boolean palindrome(String s) {
-		int i = 0, j = s.length() - 1;
-		while (i < j) if (s.charAt(i++) != s.charAt(j--)) return false;
-		return true;
+    public void helper(char[] arr, int idx, List<String> list){
+        if (idx == arr.length) {
+            res.add(new ArrayList<>(list));
+            return;
+        }
+        for(int i = idx; i<arr.length; i++){
+            if(isPalindrome(arr, idx, i)){
+                list.add(s.substring(idx, i+1));
+                helper(arr, i + 1, list);
+                list.remove(list.size() - 1);
+            } 
+        }
+    }
+    private boolean isPalindrome(char[] arr, int left, int right) {
+        while (left < right) {
+            if (arr[left++] != arr[right--]) return false;
+        }
+        return true;
     }
 }
