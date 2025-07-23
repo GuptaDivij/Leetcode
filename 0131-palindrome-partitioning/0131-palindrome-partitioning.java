@@ -1,3 +1,10 @@
+// Time Complexity : O(2^n * n) 2^n partitions and each take n to copy
+// Space Complexity : O(n) excluding output
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Approach : I iterate over the string and check for substrings which are palindrome, if it is palindrome, I search ahead and then backtrack
+
 class Solution {
     private List<List<String>> res;
     public List<List<String>> partition(String s) {
