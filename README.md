@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/GuptaDivij/Leetcode/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/GuptaDivij/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/GuptaDivij/Leetcode/tree/master/0049-group-anagrams) |
+| [0072-edit-distance](https://github.com/GuptaDivij/Leetcode/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/GuptaDivij/Leetcode/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/GuptaDivij/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0205-isomorphic-strings](https://github.com/GuptaDivij/Leetcode/tree/master/0205-isomorphic-strings) |
@@ -560,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/GuptaDivij/Leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/GuptaDivij/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/GuptaDivij/Leetcode/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/GuptaDivij/Leetcode/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/GuptaDivij/Leetcode/tree/master/0091-decode-ways) |
 | [0118-pascals-triangle](https://github.com/GuptaDivij/Leetcode/tree/master/0118-pascals-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/GuptaDivij/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
