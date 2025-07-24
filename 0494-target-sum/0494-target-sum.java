@@ -1,14 +1,21 @@
-class Solution {
+public class Solution {
+
     public int findTargetSumWays(int[] nums, int target) {
-        return helper(nums, 0, target);
-    }
-    public int helper(int[] nums, int idx, int target){
-        if(idx==nums.length){
-            if(target==0) return 1;
-            else return 0;
+        int totalSum = Arrays.stream(nums).sum();
+        int[][] dp = new int[nums.length][2 * totalSum + 1];
+
+        dp[0][nums[0] + totalSum] = 1;
+        dp[0][-nums[0] + totalSum] += 1;
+
+        for (int index = 1; index < nums.length; index++) {
+            for (int sum = -totalSum; sum <= totalSum; sum++) {
+                if (dp[index - 1][sum + totalSum] > 0) {
+                    dp[index][sum + nums[index] + totalSum] += dp[index -1][sum + totalSum];
+                    dp[index][sum - nums[index] + totalSum] += dp[index -1][sum + totalSum];
+                }
+            }
         }
-        int add = helper(nums, idx+1, target-nums[idx]);
-        int sub = helper(nums, idx+1, target+nums[idx]);
-        return add+sub;
+
+        return Math.abs(target) > totalSum? 0: dp[nums.length - 1][target + totalSum];
     }
 }
