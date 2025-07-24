@@ -2,24 +2,38 @@ class Solution {
     public int minDistance(String word1, String word2) {
         int m = word1.length();
         int n = word2.length();
-        // represents number of changes when word1 is length i and word2 is j
+        // dp[i][j] represents the minimum number of operations required 
+        // to convert word1[0..i-1] to word2[0..j-1]
         int [][] dp = new int[m+1][n+1];
-        for(int i=0;i<m+1;i++){
-            for(int j=0;j<n+1;j++){
-                // insert all j characters word2 when word1 length is 0
-                if(i==0) dp[i][j] = j;
-                // delete all i characters of word1 when word2 length is 0
-                else if(j==0) dp[i][j] = i;
-                // if the characters are same, no change necessary
-                else if(word1.charAt(i-1)==word2.charAt(j-1)) dp[i][j]=dp[i-1][j-1];
-                else {
-                    // we can insert new character to word1 from i-1 length
-                    int insert = dp[i-1][j]+1;
-                    // we can delete a character ?
-                    int delete = dp[i][j-1]+1;
-                    // we can replace a character to match it to j
-                    int replace = dp[i-1][j-1]+1;
-                    dp[i][j]=Math.min(replace, Math.min(insert, delete));
+
+        for(int i = 0; i <= m; i++){
+            for(int j = 0; j <= n; j++){
+                if(i == 0) {
+                    // If word1 is empty, insert all characters of word2
+                    dp[i][j] = j;
+                } else if(j == 0) {
+                    // If word2 is empty, delete all characters of word1
+                    dp[i][j] = i;
+                } else if(word1.charAt(i-1) == word2.charAt(j-1)) {
+                    // Characters match, no operation needed
+                    dp[i][j] = dp[i-1][j-1];
+                } else {
+                    // Characters do not match, consider all three operations:
+
+                    // Insert: pretend we inserted word2[j-1] into word1
+                    // so now match word1[0..i-1] with word2[0..j-2] + 1 operation
+                    int insert = dp[i][j-1] + 1;
+
+                    // Delete: pretend we deleted word1[i-1]
+                    // so now match word1[0..i-2] with word2[0..j-1] + 1 operation
+                    int delete = dp[i-1][j] + 1;
+
+                    // Replace: pretend we replaced word1[i-1] with word2[j-1]
+                    // so now match word1[0..i-2] with word2[0..j-2] + 1 operation
+                    int replace = dp[i-1][j-1] + 1;
+
+                    // Take the minimum of the three options
+                    dp[i][j] = Math.min(replace, Math.min(insert, delete));
                 }
             }
         }
