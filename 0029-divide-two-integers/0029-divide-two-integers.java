@@ -1,9 +1,7 @@
 class Solution {
     public int divide(int dividend, int divisor) {
-        // Edge case: overflow
-        if (dividend == Integer.MIN_VALUE && divisor == -1) {
-            return Integer.MAX_VALUE;
-        }
+        if (dividend == Integer.MIN_VALUE && divisor == -1) return Integer.MAX_VALUE;
+        if (dividend == Integer.MIN_VALUE && divisor == 1) return Integer.MIN_VALUE;
 
         // Use long to avoid overflow
         long lDividend = dividend;
@@ -22,7 +20,6 @@ class Solution {
         }
 
         int res = 0;
-
         while (lDividend >= lDivisor) {
             long tempDivisor = lDivisor;
             int multiple = 1;
