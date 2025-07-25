@@ -1,17 +1,15 @@
 class Solution {
+
     public int maxSum(int[] nums) {
-        int sum = nums[0];
-        HashSet<Integer> set = new HashSet<>();
-        set.add(nums[0]);
-        for(int i = 1; i<nums.length; i++){
-            int n = nums[i];
-            if(set.contains(n)) continue;
-            set.add(n);
-            if(n<0 || sum<0) sum = Math.max(sum, n);
-            else sum+=n;
+        Set<Integer> positiveNumsSet = new HashSet<>();
+        for (int num : nums) {
+            if (num > 0) {
+                positiveNumsSet.add(num);
+            }
         }
-        return sum;
+        if (positiveNumsSet.isEmpty()) {
+            return Arrays.stream(nums).max().getAsInt();
+        }
+        return positiveNumsSet.stream().mapToInt(Integer::intValue).sum();
     }
 }
-
-// delete the negatives and the ones seen before
