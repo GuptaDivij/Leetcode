@@ -1,3 +1,10 @@
+// Time Complexity : O(4^n * n) 4^n directions (append, multiply, add, subtract) and each take n to copy toString
+// Space Complexity : O(n) excluding output
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Approach : I traverse in all 4 directions and backtrack. I keep a track of current expression using a string builder and current value using a long, I use a tail which is the last the calculated operand - only when I am multiplying, I subtract this from the current number and add the multiplication of tail and number, I update the tail to be multiplication of tail and number
+
 class Solution {
     List<String> res;
     public List<String> addOperators(String num, int target) {
