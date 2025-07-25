@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/GuptaDivij/Leetcode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/GuptaDivij/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0258-add-digits](https://github.com/GuptaDivij/Leetcode/tree/master/0258-add-digits) |
+| [0282-expression-add-operators](https://github.com/GuptaDivij/Leetcode/tree/master/0282-expression-add-operators) |
 | [1014-k-closest-points-to-origin](https://github.com/GuptaDivij/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/GuptaDivij/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/GuptaDivij/Leetcode/tree/master/2202-sum-of-k-mirror-numbers) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/GuptaDivij/Leetcode/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/GuptaDivij/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0205-isomorphic-strings](https://github.com/GuptaDivij/Leetcode/tree/master/0205-isomorphic-strings) |
+| [0282-expression-add-operators](https://github.com/GuptaDivij/Leetcode/tree/master/0282-expression-add-operators) |
 | [0290-word-pattern](https://github.com/GuptaDivij/Leetcode/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0394-decode-string](https://github.com/GuptaDivij/Leetcode/tree/master/0394-decode-string) |
@@ -633,6 +635,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/GuptaDivij/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0282-expression-add-operators](https://github.com/GuptaDivij/Leetcode/tree/master/0282-expression-add-operators) |
 | [0494-target-sum](https://github.com/GuptaDivij/Leetcode/tree/master/0494-target-sum) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/GuptaDivij/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 ## Sliding Window
