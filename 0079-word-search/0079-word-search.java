@@ -1,9 +1,15 @@
+// Time Complexity : O(m * n * 4^L) -> we have 4 options every time - up, left, down and right for length times
+// Space Complexity : O(m*n + L) -> for taken and recursion stack
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Approach : I iterate over the board and whenever there is a potential start (first char matches) I do a subsequent check with neighbors if it is possible to make the string, I keep track of used elements using taken and backtrack if not possible to make it.
+
 class Solution {
     private boolean[][] taken;
     public boolean exist(char[][] board, String word) {
         if(board.length * board[0].length < word.length()) return false;
         taken = new boolean[board.length][board[0].length];
-
         for(int i = 0; i<board.length; i++){
             for(int j = 0;j<board[0].length; j++){
                 if(board[i][j]==word.charAt(0)){
