@@ -1,3 +1,10 @@
+// Time Complexity : O(n!) - first row has n columns, second n-1 and .... 1
+// Space Complexity : O(n^2) - for crossboard
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Approach : I used a crossboard arraylist to see if the queen has been placed, for every row, I check all columns, I mark current element as true (queen is placed) and use canPlace to see if it can be placed here - no conflicts diagonaly or in column, in row there will be none as I make sure to only place one queen in the row at once, after checking I backtrack - remove the queen from the place. If I reach n rows, ie all queens have been placed, I add this configuration to the result.
+
 class Solution {
     private boolean[][] crossboard;
     private int n;
