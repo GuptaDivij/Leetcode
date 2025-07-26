@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/GuptaDivij/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/GuptaDivij/Leetcode/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/GuptaDivij/Leetcode/tree/master/0072-edit-distance) |
+| [0079-word-search](https://github.com/GuptaDivij/Leetcode/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/GuptaDivij/Leetcode/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/GuptaDivij/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0205-isomorphic-strings](https://github.com/GuptaDivij/Leetcode/tree/master/0205-isomorphic-strings) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/GuptaDivij/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/GuptaDivij/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/GuptaDivij/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/GuptaDivij/Leetcode/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/GuptaDivij/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/GuptaDivij/Leetcode/tree/master/0088-merge-sorted-array) |
@@ -304,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/GuptaDivij/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/GuptaDivij/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/GuptaDivij/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/GuptaDivij/Leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/GuptaDivij/Leetcode/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0289-game-of-life](https://github.com/GuptaDivij/Leetcode/tree/master/0289-game-of-life) |
@@ -441,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/GuptaDivij/Leetcode/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0101-symmetric-tree) |
@@ -636,6 +640,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/GuptaDivij/Leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/GuptaDivij/Leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/GuptaDivij/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/GuptaDivij/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/GuptaDivij/Leetcode/tree/master/0131-palindrome-partitioning) |
