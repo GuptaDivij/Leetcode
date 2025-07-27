@@ -1,21 +1,32 @@
-// O(n!)
-
 class Solution {
     public int countSubstrings(String s) {
-        char[]str = s.toCharArray();
-        int ct = s.length();
-        for(int i = 1; i<s.length(); i++){
-            for(int j = i; j<s.length(); j++){
-                if(isPalindrome(str, j-i, j)) ct++;
-            }
+        int ans = 0;
+
+        for (int i = 0; i < s.length(); ++i) {
+            // odd-length palindromes, single character center
+            ans += countPalindromesAroundCenter(s, i, i);
+
+            // even-length palindromes, consecutive characters center
+            ans += countPalindromesAroundCenter(s, i, i + 1);
         }
-        return ct;
-    }
-    private boolean isPalindrome(char[] arr, int left, int right) {
-        while (left < right) {
-            if (arr[left++] != arr[right--]) return false;
-        }
-        return true;
+
+        return ans;
     }
 
+    private int countPalindromesAroundCenter(String ss, int lo, int hi) {
+        int ans = 0;
+
+        while (lo >= 0 && hi < ss.length()) {
+            if (ss.charAt(lo) != ss.charAt(hi))
+                break;      // the first and last characters don't match!
+
+            // expand around the center
+            lo--;
+            hi++;
+
+            ans++;
+        }
+
+        return ans;
+    }
 }
