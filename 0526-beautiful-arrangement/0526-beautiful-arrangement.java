@@ -1,7 +1,9 @@
-// time complexity - O(valid permutations) - only traverse for the ones where I can place
-// space complexity - O(n)
+// Time Complexity : O(valid permutations) - only traverse for the ones where I can place
+// Space Complexity : O(n)
+// Did this code successfully run on Leetcode : Yes 
+// Any problem you faced while coding this : No
 
-// 1 - n, 2- n-1, 3, n-2 ... n(n-1)(n-2) = n!
+// Approach : I traverse every element and see it can be placed at an index, if so, I mark it as placed, and keep going until all can placed - if it can, I increase the count, then finally, I backtrack
 
 class Solution {
     private int [] hasPlaced; 
