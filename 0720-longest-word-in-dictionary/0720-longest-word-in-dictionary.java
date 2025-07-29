@@ -1,3 +1,10 @@
+// Time Complexity : O(sum of lengths of words)
+// Space Complexity : O(length of words)
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Approach : I added everything to a trie, and for each word I checked if it can be made from other words - basically all characters within that TrieNode till that word ends should be an end point.
+
 class Solution {
     public String longestWord(String[] words) {
         Trie trie = new Trie();
@@ -22,7 +29,6 @@ class Solution {
 }
 
 class Trie {
-
     class TrieNode{
         boolean inEnd;
         TrieNode[] children;
