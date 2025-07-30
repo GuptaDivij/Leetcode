@@ -1,3 +1,10 @@
+// Time Complexity : O(total length of dictionary + sentence)
+// Space Complexity : O(total length of dictionary + sentence)
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Approach : I added everything to a trie and for each word in the sentence, I found the closest possible match, if no match then I add the word itself.
+
 class Solution {
     public String replaceWords(List<String> dictionary, String sentence) {
         Trie trie = new Trie();
