@@ -1,3 +1,10 @@
+// Time Complexity : O(1) for next, O(n) for initialization, O(1) amortized for hasNex
+// Space Complexity : O(n) for storing in stack
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Appraoch : I used a stack to add all elements in reverse order, hasNext is always called before next so I update nextEl to be the next integer -> if stack.pop is an integer, then I can use it, if it is a list, while the top is not an integer, I keep adding the list's elements to the stack in reverse order
+
 /**
  * // This is the interface that allows for creating nested lists.
  * // You should not implement it, or speculate about its implementation
