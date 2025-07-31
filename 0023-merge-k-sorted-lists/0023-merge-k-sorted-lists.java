@@ -1,3 +1,10 @@
+// Time Complexity : O(nlogk) n is total elements, k is lists
+// Space Complexity : O(1)
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Approach : I used the merge function which merges 2 lists, I do this in binary manner - I use a merge factor which merges list[i] with list[i+merge], and then increments i with merge*2 - this makes sure that all lists are covered. Eg for k = 6, I first merge 0 and 1; 2 and 3; 4 and 5. Then I merge 0 (it already has 1) and 2 (it already has 3). So now, 0123 are merged at index 0, now next iteration I merge 0 and 4 (which already has 5) and then I stop. At this point all lists are merged and stored at index 0.
+
 // Definition for singly-linked list.
 // class ListNode {
 //     int val;
@@ -8,36 +15,34 @@
 // }
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
-        int amount = lists.length;
-        int interval = 1;
-        while (interval < amount) {
-            for (int i = 0; i < amount - interval; i += interval * 2) {
-                lists[i] = merge2Lists(lists[i], lists[i + interval]);
+        int k = lists.length;
+        if(k==0) return null;
+        int merge = 1;
+        while (merge < k) {
+            for (int i = 0; i < k - merge; i += merge * 2) {
+                lists[i] = mergeLists(lists[i], lists[i + merge]); 
             }
-            interval *= 2;
+            merge = merge * 2;
         }
-        return amount > 0 ? lists[0] : null;
+        return lists[0];
     }
 
-    public ListNode merge2Lists(ListNode l1, ListNode l2) {
-        ListNode head = new ListNode(0);
-        ListNode point = head;
-        while (l1 != null && l2 != null) {
-            if (l1.val <= l2.val) {
-                point.next = l1;
-                l1 = l1.next;
+    public ListNode mergeLists(ListNode first, ListNode second) {
+        ListNode dummy = new ListNode(0);
+        ListNode curr = dummy;
+        while (first != null && second != null) {
+            if (first.val <= second.val) {
+                curr.next = first;
+                first = first.next;
             } else {
-                point.next = l2;
-                l2 = l1;
-                l1 = point.next.next;
+                curr.next = second;
+                second = first;
+                first = curr.next.next;
             }
-            point = point.next;
+            curr = curr.next;
         }
-        if (l1 == null) {
-            point.next = l2;
-        } else {
-            point.next = l1;
-        }
-        return head.next;
+        if (first == null) curr.next = second;
+        else curr.next = first;
+        return dummy.next;
     }
 }
