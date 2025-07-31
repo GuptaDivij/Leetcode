@@ -3,7 +3,7 @@
 // Did this code successfully run on Leetcode : Yes
 // Any problem you faced while coding this : No
 
-// Appraoch : I used a stack to add all elements in reverse order, hasNext is always called before next so I update nextEl to be the next integer -> if stack.pop is an integer, then I can use it, if it is a list, while the top is not an integer, I keep adding the list's elements to the stack in reverse order
+// Appraoch : I used a stack with native iterator - I added the first list, I know that has next will always be called before next. So for hasnext, I check while stack has something, if the top is empty, I remove it, if the top is an integer, I set nextEl to that and return true, if the top is a list, I add that list to the stack and repeat - now this will be the top. 
 
 /**
  * // This is the interface that allows for creating nested lists.
