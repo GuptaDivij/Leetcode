@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/GuptaDivij/Leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0232-implement-queue-using-stacks](https://github.com/GuptaDivij/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/GuptaDivij/Leetcode/tree/master/0234-palindrome-linked-list) |
+| [0341-flatten-nested-list-iterator](https://github.com/GuptaDivij/Leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0394-decode-string](https://github.com/GuptaDivij/Leetcode/tree/master/0394-decode-string) |
 | [0739-daily-temperatures](https://github.com/GuptaDivij/Leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/GuptaDivij/Leetcode/tree/master/0883-car-fleet) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/GuptaDivij/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0341-flatten-nested-list-iterator](https://github.com/GuptaDivij/Leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0355-design-twitter](https://github.com/GuptaDivij/Leetcode/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0816-design-hashset](https://github.com/GuptaDivij/Leetcode/tree/master/0816-design-hashset) |
@@ -459,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/GuptaDivij/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0341-flatten-nested-list-iterator](https://github.com/GuptaDivij/Leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/GuptaDivij/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0572-subtree-of-another-tree) |
@@ -487,6 +490,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/GuptaDivij/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0341-flatten-nested-list-iterator](https://github.com/GuptaDivij/Leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/GuptaDivij/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0572-subtree-of-another-tree) |
@@ -586,6 +590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/GuptaDivij/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0341-flatten-nested-list-iterator](https://github.com/GuptaDivij/Leetcode/tree/master/0341-flatten-nested-list-iterator) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -689,6 +694,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/GuptaDivij/Leetcode/tree/master/0173-binary-search-tree-iterator) |
+| [0341-flatten-nested-list-iterator](https://github.com/GuptaDivij/Leetcode/tree/master/0341-flatten-nested-list-iterator) |
 ## Graph
 |  |
 | ------- |
