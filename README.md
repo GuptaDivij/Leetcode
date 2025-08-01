@@ -222,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
 | [0648-replace-words](https://github.com/GuptaDivij/Leetcode/tree/master/0648-replace-words) |
+| [0658-find-k-closest-elements](https://github.com/GuptaDivij/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0690-employee-importance](https://github.com/GuptaDivij/Leetcode/tree/master/0690-employee-importance) |
 | [0695-max-area-of-island](https://github.com/GuptaDivij/Leetcode/tree/master/0695-max-area-of-island) |
 | [0720-longest-word-in-dictionary](https://github.com/GuptaDivij/Leetcode/tree/master/0720-longest-word-in-dictionary) |
@@ -286,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0594-longest-harmonious-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
+| [0658-find-k-closest-elements](https://github.com/GuptaDivij/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0720-longest-word-in-dictionary](https://github.com/GuptaDivij/Leetcode/tree/master/0720-longest-word-in-dictionary) |
 | [0876-hand-of-straights](https://github.com/GuptaDivij/Leetcode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/GuptaDivij/Leetcode/tree/master/0883-car-fleet) |
@@ -317,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/GuptaDivij/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0658-find-k-closest-elements](https://github.com/GuptaDivij/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/GuptaDivij/Leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/GuptaDivij/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/GuptaDivij/Leetcode/tree/master/1023-time-based-key-value-store) |
@@ -379,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0647-palindromic-substrings](https://github.com/GuptaDivij/Leetcode/tree/master/0647-palindromic-substrings) |
+| [0658-find-k-closest-elements](https://github.com/GuptaDivij/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0979-di-string-match](https://github.com/GuptaDivij/Leetcode/tree/master/0979-di-string-match) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/GuptaDivij/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
@@ -576,6 +580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0355-design-twitter](https://github.com/GuptaDivij/Leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
+| [0658-find-k-closest-elements](https://github.com/GuptaDivij/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/GuptaDivij/Leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -699,6 +704,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
+| [0658-find-k-closest-elements](https://github.com/GuptaDivij/Leetcode/tree/master/0658-find-k-closest-elements) |
 | [1813-maximum-erasure-value](https://github.com/GuptaDivij/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/GuptaDivij/Leetcode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/GuptaDivij/Leetcode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
