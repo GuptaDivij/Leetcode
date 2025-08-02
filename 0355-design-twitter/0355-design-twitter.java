@@ -1,71 +1,65 @@
-import java.util.*;
-
 class Twitter {
-    private static int timestamp = 0;
-
-    // user -> set of followees
-    private Map<Integer, Set<Integer>> followList;
-
-    // user -> list of tweets
-    private Map<Integer, List<Tweet>> userTweets;
-
-    // Max number of tweets in feed
-    private static final int FEED_SIZE = 10;
-
+    HashMap<Integer, HashSet<Integer>> usersFollowingList;
+    HashMap<Integer, List<Tweet>> tweetsPostedByUser;
+    int timestamp;
     public Twitter() {
-        followList = new HashMap<>();
-        userTweets = new HashMap<>();
+        usersFollowingList = new HashMap<>();
+        tweetsPostedByUser = new HashMap<>();
+        timestamp = 0;
     }
-
+    
     public void postTweet(int userId, int tweetId) {
-        // Auto-follow self
-        follow(userId, userId);
-
-        userTweets.putIfAbsent(userId, new ArrayList<>());
-        userTweets.get(userId).add(new Tweet(tweetId, timestamp++, userId));
+        Tweet tweet = new Tweet(tweetId, timestamp++);
+        tweetsPostedByUser.putIfAbsent(userId, new ArrayList<>());
+        tweetsPostedByUser.get(userId).add(tweet);
     }
-
+    
     public List<Integer> getNewsFeed(int userId) {
-        List<Integer> feed = new ArrayList<>();
-        PriorityQueue<Tweet> maxHeap = new PriorityQueue<>((a, b) -> b.timestamp - a.timestamp);
+        ArrayList<Integer> feed = new ArrayList<>();
+        PriorityQueue<Tweet> pq = new PriorityQueue<>((a,b)->b.timestamp-a.timestamp);
 
-        Set<Integer> followees = followList.getOrDefault(userId, new HashSet<>());
+        usersFollowingList.putIfAbsent(userId, new HashSet<>());
+        usersFollowingList.get(userId).add(userId);
 
-        for (int followee : followees) {
-            List<Tweet> tweets = userTweets.getOrDefault(followee, new ArrayList<>());
-            for (int i = tweets.size() - 1; i >= 0 && i >= tweets.size() - FEED_SIZE; i--) {
-                maxHeap.offer(tweets.get(i));
+        for(int followedUser : usersFollowingList.get(userId)){
+            tweetsPostedByUser.putIfAbsent(followedUser, new ArrayList<>());
+            List<Tweet> tweetPostedByFollowedUser = tweetsPostedByUser.get(followedUser);
+            for(int i = tweetPostedByFollowedUser.size()-1; i>=0 && i>=tweetPostedByFollowedUser.size()-10; i--){
+                pq.offer(tweetPostedByFollowedUser.get(i));
             }
         }
-
-        while (!maxHeap.isEmpty() && feed.size() < FEED_SIZE) {
-            feed.add(maxHeap.poll().id);
+        for(int i = 1; i<=10; i++){
+            if(pq.isEmpty()) break;
+            feed.add(pq.poll().tweetId);
         }
-
         return feed;
     }
-
+    
     public void follow(int followerId, int followeeId) {
-        followList.putIfAbsent(followerId, new HashSet<>());
-        followList.get(followerId).add(followeeId);
+        usersFollowingList.putIfAbsent(followerId, new HashSet<>());
+        usersFollowingList.get(followerId).add(followeeId);
     }
-
+    
     public void unfollow(int followerId, int followeeId) {
-        if (followerId == followeeId) return; // cannot unfollow self
-        if (followList.containsKey(followerId)) {
-            followList.get(followerId).remove(followeeId);
-        }
+        if(!usersFollowingList.containsKey(followerId) || !usersFollowingList.get(followerId).contains(followeeId) || followerId==followeeId) return;
+        usersFollowingList.get(followerId).remove(followeeId);
     }
 
-    private static class Tweet {
-        int id;
+    class Tweet{
+        int tweetId;
         int timestamp;
-        int userId;
-
-        public Tweet(int id, int timestamp, int userId) {
-            this.id = id;
+        public Tweet(int tweetId, int timestamp){
+            this.tweetId = tweetId;
             this.timestamp = timestamp;
-            this.userId = userId;
         }
     }
 }
+
+/**
+ * Your Twitter object will be instantiated and called as such:
+ * Twitter obj = new Twitter();
+ * obj.postTweet(userId,tweetId);
+ * List<Integer> param_2 = obj.getNewsFeed(userId);
+ * obj.follow(followerId,followeeId);
+ * obj.unfollow(followerId,followeeId);
+ */
