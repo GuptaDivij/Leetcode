@@ -1,3 +1,5 @@
+// Approach : I will get the frequencies of both in the map, if the freq is 0, it is already fine, no need to worry abt it, if the freq is positive, it means basket1 has more of these, if negative it means basket2 has more. For anything with odd freq, it is impossible to balance it out. So for every even balance, I just need to move half, if positive, I need to move it from b1 to b2, if negative, I need to move from b2 to b1. Now, I made a difference object which tells me about the cost and the frequency. What I am not doing is, adding all positve (extra in b1) to a minheap according to price and adding all negative to maxheap according to price - this way, I can map lowest costs with highest costs and get rid of these in a greedy manner. So for remaining, lets say b1 has freq 3 and b2 has -2, this means b1 has 1 extra, after 2 are matched from both sides, b1 should still remain in the heap with freq being 1 (3+-2)
+
 class Solution {
     public long minCost(int[] basket1, int[] basket2) {
         HashMap<Integer, Integer> freq = new HashMap<>();
@@ -58,3 +60,4 @@ class Solution {
         }
     }
 }
+
