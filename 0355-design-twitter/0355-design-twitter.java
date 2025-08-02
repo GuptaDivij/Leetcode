@@ -1,3 +1,10 @@
+// Time Complexity : O(1) for follow, unfollow and postTweet, O(n * k * log(n * k) + log(n * k)) where n is the number of users followed and k is the max feed size which is 10
+// Space Complexity : O(users+tweets) for the maps
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Approach : I used hashmaps to store follow list and tweet list, I also defined an object Tweet to store tweet along with its timestamp for getting latest ones. For follow, unfollow and post it is very simple, directly as per requirement I add/remove to the maps. For the feed, I get the user's following list, and from each of those users, I add a maximum of 10 tweets in reverse order to only get latest tweets - I add all of this to maxheap and then take out 10 latest tweetIds.
+
 class Twitter {
     HashMap<Integer, HashSet<Integer>> usersFollowingList;
     HashMap<Integer, List<Tweet>> tweetsPostedByUser;
