@@ -1,30 +1,36 @@
 class Solution {
     public int kthSmallest(int[][] matrix, int k) {
-        int count = 0;
+        int n = matrix.length;
         int low = matrix[0][0];
-        int high = matrix[matrix.length - 1][matrix[0].length - 1];
-        while (low <= high) {
+        int high = matrix[n - 1][n - 1];
+
+        while (low < high) {
             int mid = low + (high - low) / 2;
-            int countToMid = helper(matrix, low, mid);
-            if (count + countToMid < k) {
-                count += countToMid;
+            int count = countLessEqual(matrix, mid);
+
+            if (count < k) {
                 low = mid + 1;
             } else {
-                high = mid - 1;
+                high = mid;
             }
         }
         return low;
     }
 
-    public int helper(int[][] matrix, int low, int mid) {
-        int res = 0;
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length; j++) {
-                if (matrix[i][j] >= low && matrix[i][j] <= mid) {
-                    res++;
-                }
+    // Counts how many numbers are <= mid
+    private int countLessEqual(int[][] matrix, int mid) {
+        int n = matrix.length;
+        int row = n - 1, col = 0;
+        int count = 0;
+
+        while (row >= 0 && col < n) {
+            if (matrix[row][col] <= mid) {
+                count += row + 1; 
+                col++;
+            } else {
+                row--;
             }
         }
-        return res;
+        return count;
     }
 }
