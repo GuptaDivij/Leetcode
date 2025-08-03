@@ -1,12 +1,36 @@
 class Solution {
     public int kthSmallest(int[][] matrix, int k) {
-        PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a,b) -> b-a);
-        for(int i = matrix.length-1;i>=0; i--){
-            for(int j = matrix[0].length-1;j>=0; j--){
-                maxHeap.offer(matrix[i][j]);
-                if(maxHeap.size()>k) maxHeap.poll();
+        int n = matrix.length;
+        int low = matrix[0][0];
+        int high = matrix[n - 1][n - 1];
+
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+            int count = countLessEqual(matrix, mid);
+
+            if (count < k) {
+                low = mid + 1;
+            } else {
+                high = mid;
             }
         }
-        return maxHeap.peek();
+        return low;
+    }
+
+    // Counts how many numbers are <= mid
+    private int countLessEqual(int[][] matrix, int mid) {
+        int n = matrix.length;
+        int row = n - 1, col = 0;
+        int count = 0;
+
+        while (row >= 0 && col < n) {
+            if (matrix[row][col] <= mid) {
+                count += row + 1; 
+                col++;
+            } else {
+                row--;
+            }
+        }
+        return count;
     }
 }
