@@ -1,23 +1,30 @@
-import java.util.*;
-
 class Solution {
     public int totalFruit(int[] fruits) {
-        Map<Integer, Integer> count = new HashMap<>();
-        int left = 0, maxLen = 0;
+        int n = fruits.length;
+        if (n <= 2) return n;
+        int max = 2, curr = 2;
+        int fruit1 = fruits[0];
+        int fruit2 = fruits[1];
 
-        for (int right = 0; right < fruits.length; right++) {
-            count.put(fruits[right], count.getOrDefault(fruits[right], 0) + 1);
+        // Track the last index of a streak of the same fruit
+        int lastStreakStart = (fruit1 == fruit2) ? 0 : 1;  
 
-            while (count.size() > 2) {
-                count.put(fruits[left], count.get(fruits[left]) - 1);
-                if (count.get(fruits[left]) == 0) {
-                    count.remove(fruits[left]);
+        for (int i = 2; i < n; i++) {
+            if (fruits[i] == fruit1 || fruits[i] == fruit2) {
+                curr++;
+                if (fruits[i] != fruits[i - 1]) {
+                    lastStreakStart = i; // start of the new streak
                 }
-                left++;
+            } else {
+                max = Math.max(max, curr);
+                // Shift window: keep the last streak + new fruit
+                curr = i - lastStreakStart + 1;
+                fruit1 = fruits[lastStreakStart];
+                fruit2 = fruits[i];
+                lastStreakStart = i;
             }
-
-            maxLen = Math.max(maxLen, right - left + 1);
         }
-        return maxLen;
+
+        return Math.max(max, curr);
     }
 }
