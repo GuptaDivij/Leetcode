@@ -9,7 +9,7 @@ class WordDictionary {
     }
     
     public boolean search(String word) {
-        return trie.search(word);
+        return trie.searchSpecial(trie.root, 0, word);
     }
 
     class Trie{
@@ -25,9 +25,6 @@ class WordDictionary {
                 curr = curr.children[child];
             }
             curr.isEnd = true;
-        }
-        public boolean search(String word) {
-            return searchSpecial(root, 0, word);
         }
         public boolean searchSpecial(TrieNode curr, int start, String word){
             for(int i = start;i<word.length(); i++){
