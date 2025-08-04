@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/GuptaDivij/Leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/GuptaDivij/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/GuptaDivij/Leetcode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/GuptaDivij/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/GuptaDivij/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0138-copy-list-with-random-pointer](https://github.com/GuptaDivij/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/GuptaDivij/Leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/GuptaDivij/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/GuptaDivij/Leetcode/tree/master/0146-lru-cache) |
@@ -133,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/GuptaDivij/Leetcode/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/GuptaDivij/Leetcode/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/GuptaDivij/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/GuptaDivij/Leetcode/tree/master/0139-word-break) |
 | [0205-isomorphic-strings](https://github.com/GuptaDivij/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/GuptaDivij/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -199,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/GuptaDivij/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0118-pascals-triangle](https://github.com/GuptaDivij/Leetcode/tree/master/0118-pascals-triangle) |
 | [0134-gas-station](https://github.com/GuptaDivij/Leetcode/tree/master/0134-gas-station) |
+| [0139-word-break](https://github.com/GuptaDivij/Leetcode/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/GuptaDivij/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/GuptaDivij/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/GuptaDivij/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -643,6 +647,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/GuptaDivij/Leetcode/tree/master/0118-pascals-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/GuptaDivij/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/GuptaDivij/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/GuptaDivij/Leetcode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/GuptaDivij/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/GuptaDivij/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0213-house-robber-ii) |
@@ -695,6 +700,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/GuptaDivij/Leetcode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/GuptaDivij/Leetcode/tree/master/0139-word-break) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/GuptaDivij/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/GuptaDivij/Leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 ## Backtracking
