@@ -1,3 +1,10 @@
+// Time Complexity : O(n)
+// Space Complexity : O(n)
+// Did this code successfully run on Leetcode : Yes 
+// Any problem you faced while coding this : No
+
+// Approach : I used a hashmap to store the last seen index of every character and I iterate over the string - If I have seen this before and it is a part of my current sliding window (the index was after the start) - I update my start to be the index after this so I do not include both, else I simply calculate the length and compare with max length.
+
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         HashMap<Character, Integer> map = new HashMap<>();
