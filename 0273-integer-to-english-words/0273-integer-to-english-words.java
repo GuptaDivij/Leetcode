@@ -1,10 +1,9 @@
 class Solution {
-    String[] thousands = new String[]{"", " Thousand ", " Million ", " Billion "};
-    String[] below20 = new String[]{"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
-    String[] tens = {"", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
-
     public String numberToWords(int num) {
         if (num == 0) return "Zero";
+        String[] thousands = new String[]{"", " Thousand ", " Million ", " Billion "};
+        String[] below20 = new String[]{"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
+        String[] tens = {"", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
         int i = 0;
         StringBuilder res = new StringBuilder();
         while (num > 0) {
