@@ -1,3 +1,10 @@
+// Time Complexity : O(logN) - base 10
+// Space Complexity : O(1) - constant space
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Approach : I kept arrays as dictionary for numbers below20, tens and thousands. I keep a count of thousands - for 0 I add nothing, for 1 add thousand, 2 Million, etc. I iterate while num > 0 -> I get triplet num%1000 and use the arrays to get the value in words, now after this I add the thousdand value to make the number. I keep doing this while incrementing thousdand count. 
+
 class Solution {
     public String numberToWords(int num) {
         if (num == 0) return "Zero";
