@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/GuptaDivij/Leetcode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/GuptaDivij/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0227-basic-calculator-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0227-basic-calculator-ii) |
+| [0231-power-of-two](https://github.com/GuptaDivij/Leetcode/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/GuptaDivij/Leetcode/tree/master/0258-add-digits) |
 | [0273-integer-to-english-words](https://github.com/GuptaDivij/Leetcode/tree/master/0273-integer-to-english-words) |
 | [0282-expression-add-operators](https://github.com/GuptaDivij/Leetcode/tree/master/0282-expression-add-operators) |
@@ -436,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/GuptaDivij/Leetcode/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/GuptaDivij/Leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/GuptaDivij/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/GuptaDivij/Leetcode/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/GuptaDivij/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0273-integer-to-english-words](https://github.com/GuptaDivij/Leetcode/tree/master/0273-integer-to-english-words) |
 | [0394-decode-string](https://github.com/GuptaDivij/Leetcode/tree/master/0394-decode-string) |
@@ -476,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/GuptaDivij/Leetcode/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/GuptaDivij/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0090-subsets-ii) |
+| [0231-power-of-two](https://github.com/GuptaDivij/Leetcode/tree/master/0231-power-of-two) |
 | [0287-find-the-duplicate-number](https://github.com/GuptaDivij/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0526-beautiful-arrangement](https://github.com/GuptaDivij/Leetcode/tree/master/0526-beautiful-arrangement) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/GuptaDivij/Leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
