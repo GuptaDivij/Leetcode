@@ -1,36 +1,32 @@
 class Solution {
     public int calculate(String s) {
-        if(s.length()==1) return s.charAt(0)-'0';
-        int calculated = 0, curr = 0, tail = 0;
-        char lastOp = '+';
+        Stack<Integer> stack = new Stack<>();
+        int curr = 0;
+        char lastSign = '+';
         for(int i = 0; i<s.length(); i++){
             char c = s.charAt(i);
-            if(Character.isDigit(c)) curr = curr*10 + (c-'0');
+            if(Character.isDigit(c)){
+                curr = curr*10+(c-'0');
+            }
             if((!Character.isDigit(c) && c!=' ') || i==s.length()-1){
-                if(lastOp=='+'){
-                    calculated += curr;
-                    tail = curr; 
+                if(lastSign=='+'){
+                    stack.push(curr);
                 }
-                if(lastOp=='-'){
-                    calculated -= curr;
-                    tail = -curr;
+                if(lastSign=='-'){
+                    stack.push(-curr);
                 }
-                if(lastOp=='*'){
-                    calculated = calculated - tail + tail*curr;
-                    tail = tail*curr;
+                if(lastSign=='*'){
+                    stack.push(stack.pop()*curr);
                 }
-                if(lastOp=='/'){
-                    calculated = calculated - tail + tail/curr;
-                    tail = tail/curr;
+                if(lastSign=='/'){
+                    stack.push(stack.pop()/curr);
                 }
+                lastSign = c;
                 curr=0;
-                lastOp=c;
             }
         }
-        return calculated;
+        int res = 0;
+        while(!stack.isEmpty()) res+= stack.pop();
+        return res;
     }
 }
-
-// 
-
-// use lastSign seen, calculated, current, and tail. 
