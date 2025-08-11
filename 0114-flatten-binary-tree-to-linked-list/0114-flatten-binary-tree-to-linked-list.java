@@ -1,3 +1,10 @@
+// Time Complexity : O(n)
+// Space Complexity : O(height of the tree)
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Approach : I simply did a DFS - went to the left most node, swapped right with null and stored right in temp -> after that I went to the right most point of the subtree and re attached the right part. 
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,6 +20,7 @@
  *     }
  * }
  */
+
 class Solution {
     public void flatten(TreeNode root) {
         if(root == null) return;
