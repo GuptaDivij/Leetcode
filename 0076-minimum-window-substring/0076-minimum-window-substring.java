@@ -1,3 +1,10 @@
+// Time Complexity : O(s.length + t.length) for traversing and adding to the array, checking the array is O(52) which is constant
+// Space Complexity : O(1) - constant space
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Approach : I made a freq map of s and t and checked windows where s contains t.
+
 class Solution {
     public String minWindow(String s, String t) {
         if(t.length()>s.length()) return "";
@@ -27,9 +34,7 @@ class Solution {
         return best[0]==-1?"":s.substring(best[0], best[1]+1);
     }
     public boolean contains(int[]s,int[]t){
-        for(int i = 0; i<52; i++){
-            if(t[i]>s[i]) return false;
-        }
+        for(int i = 0; i<52; i++) if(t[i]>s[i]) return false;
         return true;
     }
 }
