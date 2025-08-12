@@ -1,3 +1,10 @@
+// Time Complexity : O(log(n)) - I reduce the search space by half each time
+// Space Complexity : O(1)
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Approach : I make sure p<q in terms of value and then all I need to do is find a node such that node's value is in between p and q -> this will be lowest ancestor. If I don't find it, I move left or right depending if node is larger or smaller respectively. 
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
