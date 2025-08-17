@@ -1,7 +1,6 @@
 class Solution {
     public int mincostTickets(int[] days, int[] costs) {
-        int [] minCost = new int[366]; 
-
+        int [] minCost = new int[days[days.length-1]+1]; 
         for (int i = 0; i < days.length; i++) {
             int day = days[i];
             int oneDay = costs[0] + minCost[findClosestDay(days, 1, i)];
