@@ -1,22 +1,24 @@
 class Solution {
     public int mincostTickets(int[] days, int[] costs) {
-        int [] minCost = new int[days[days.length-1]+1]; 
-        for (int i = 0; i < days.length; i++) {
-            int day = days[i];
-            int oneDay = costs[0] + minCost[findClosestDay(days, 1, i)];
-            int sevenDay = costs[1] + minCost[findClosestDay(days, 7, i)];
-            int thirtyDay = costs[2] + minCost[findClosestDay(days, 30, i)];
-            minCost[day] = Math.min(oneDay, Math.min(sevenDay, thirtyDay));
-        }
-        return minCost[days[days.length - 1]];
-    }
+        // The last day on which we need to travel.
+        int lastDay = days[days.length - 1];
+        int dp[] = new int[lastDay + 1];
+        Arrays.fill(dp, 0);
 
-    public int findClosestDay(int[] days, int period, int idx) {
-        for (int i = idx - 1; i >= 0; i--) {
-            if (period <= days[idx] - days[i]) {
-                return days[i];
+        int i = 0;
+        for (int day = 1; day <= lastDay; day++) {
+            // If we don't need to travel on this day, the cost won't change.
+            if (day < days[i]) {
+                dp[day] = dp[day - 1];
+            } else {
+                // Buy a pass on this day, and move on to the next travel day.
+                i++;
+                // Store the cost with the minimum of the three options.
+                dp[day] = Math.min(dp[day - 1] + costs[0],Math.min(dp[Math.max(0, day - 7)] + costs[1],
+                                dp[Math.max(0, day - 30)] + costs[2]));
             }
         }
-        return 0; 
+
+        return dp[lastDay];
     }
 }
