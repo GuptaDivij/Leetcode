@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/GuptaDivij/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0232-implement-queue-using-stacks](https://github.com/GuptaDivij/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0284-peeking-iterator](https://github.com/GuptaDivij/Leetcode/tree/master/0284-peeking-iterator) |
 | [0295-find-median-from-data-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0341-flatten-nested-list-iterator](https://github.com/GuptaDivij/Leetcode/tree/master/0341-flatten-nested-list-iterator) |
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/GuptaDivij/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0275-h-index-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0275-h-index-ii) |
+| [0284-peeking-iterator](https://github.com/GuptaDivij/Leetcode/tree/master/0284-peeking-iterator) |
 | [0287-find-the-duplicate-number](https://github.com/GuptaDivij/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0289-game-of-life](https://github.com/GuptaDivij/Leetcode/tree/master/0289-game-of-life) |
 | [0300-longest-increasing-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/0300-longest-increasing-subsequence) |
@@ -786,6 +788,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/GuptaDivij/Leetcode/tree/master/0173-binary-search-tree-iterator) |
+| [0284-peeking-iterator](https://github.com/GuptaDivij/Leetcode/tree/master/0284-peeking-iterator) |
 | [0341-flatten-nested-list-iterator](https://github.com/GuptaDivij/Leetcode/tree/master/0341-flatten-nested-list-iterator) |
 ## Graph
 |  |
