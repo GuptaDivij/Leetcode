@@ -279,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/GuptaDivij/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1025-minimum-cost-for-tickets](https://github.com/GuptaDivij/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/GuptaDivij/Leetcode/tree/master/1036-rotting-oranges) |
+| [1121-partition-array-for-maximum-sum](https://github.com/GuptaDivij/Leetcode/tree/master/1121-partition-array-for-maximum-sum) |
 | [1127-last-stone-weight](https://github.com/GuptaDivij/Leetcode/tree/master/1127-last-stone-weight) |
 | [1217-relative-sort-array](https://github.com/GuptaDivij/Leetcode/tree/master/1217-relative-sort-array) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/GuptaDivij/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
@@ -718,6 +719,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0934-bitwise-ors-of-subarrays](https://github.com/GuptaDivij/Leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0967-minimum-falling-path-sum](https://github.com/GuptaDivij/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1025-minimum-cost-for-tickets](https://github.com/GuptaDivij/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
+| [1121-partition-array-for-maximum-sum](https://github.com/GuptaDivij/Leetcode/tree/master/1121-partition-array-for-maximum-sum) |
 | [1250-longest-common-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/GuptaDivij/Leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/GuptaDivij/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
