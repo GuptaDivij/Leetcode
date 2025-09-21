@@ -1,21 +1,49 @@
 class Solution {
     public int longestStrChain(String[] words) {
-        if(words.length==1) return 1;
-        int result = 0;
-        HashMap<String, Integer> map = new HashMap<>(); // string and max streak
-        Arrays.sort(words, (a,b)-> a.length()-b.length()); // I want it to be sorted in terms of length
-        for(String word : words){
-            // find the substrings
-            int max = 1; 
-            for(int i = 0; i<word.length(); i++){
-                String substring = word.substring(0, i) + word.substring(i+1);
-                if(map.containsKey(substring)){
-                    max = Math.max(max, map.get(substring) + 1);
+        if (words.length == 1) return 1;
+        Arrays.sort(words, (a, b) -> a.length() - b.length()); // sort by length
+        HashMap<String, Integer> dp = new HashMap<>(); // word -> max chain length
+        int result = 1;
+        
+        // O(n * n * word)
+        for (int i = 0; i < words.length; i++) {
+            String curr = words[i];
+            int best = 1; // at least this word itself
+            
+            // O(n * word)
+            for (int j = i - 1; j >= 0; j--) {
+                if (words[j].length() < curr.length() - 1) break; 
+                // O(word)
+                if (words[j].length() == curr.length() - 1 && canBuild(curr, words[j])) {
+                    best = Math.max(best, dp.get(words[j]) + 1);
                 }
             }
-            result = Math.max(result, max);
-            map.put(word, max);
+            
+            dp.put(curr, best);
+            result = Math.max(result, best);
         }
+        
         return result;
+    }
+    
+    // check if "shorter" can become "longer" by adding exactly one character
+    private boolean canBuild(String longer, String shorter) {
+        if (longer.length() != shorter.length() + 1) return false;
+        
+        int i = 0, j = 0;
+        boolean skipped = false;
+        
+        while (i < longer.length() && j < shorter.length()) {
+            if (longer.charAt(i) == shorter.charAt(j)) {
+                i++;
+                j++;
+            } else {
+                if (skipped) return false; // already used our skip
+                skipped = true;
+                i++; // skip this char in longer
+            }
+        }
+        
+        return true; // valid if only one skip was needed
     }
 }
