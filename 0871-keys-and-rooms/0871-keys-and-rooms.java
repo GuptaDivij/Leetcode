@@ -2,23 +2,21 @@
 // Space complexity = O(n)
 
 class Solution {
+    private List<List<Integer>> rooms;
+    private HashSet<Integer> visited;
+    private int n;
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
-        int n = rooms.size();
-        HashSet<Integer> visited = new HashSet<>();
-        Queue<Integer> queue = new LinkedList<>();
-        queue.add(0);
-        visited.add(0);
-        while(!queue.isEmpty()){
-            // visit the room
-            int room = queue.poll();
-            List<Integer> keys = rooms.get(room);
-            for(int key : keys){
-                if(visited.contains(key)) continue;
-                visited.add(key);
-                queue.add(key);
-            }
-            if(visited.size()==n) return true;
-        }
+        this.n = rooms.size();
+        this.visited = new HashSet<>();
+        this.rooms = rooms;
+        dfs(0);
         return visited.size()==n;
+    }
+
+    public void dfs(int room){
+        if(visited.contains(room) || visited.size()==n) return;
+        visited.add(room);
+        List<Integer> keys = rooms.get(room);
+        for(int key: keys) dfs(key);
     }
 }
