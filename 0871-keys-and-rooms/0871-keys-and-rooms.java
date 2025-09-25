@@ -14,7 +14,7 @@ class Solution {
     }
 
     public void dfs(int room){
-        if(visited.contains(room)) return;
+        if(visited.contains(room) || visited.size()==n) return;
         visited.add(room);
         List<Integer> keys = rooms.get(room);
         for(int key: keys) dfs(key);
