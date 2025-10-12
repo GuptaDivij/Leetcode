@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/GuptaDivij/Leetcode/tree/master/0394-decode-string) |
 | [0739-daily-temperatures](https://github.com/GuptaDivij/Leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/GuptaDivij/Leetcode/tree/master/0883-car-fleet) |
+| [0886-score-of-parentheses](https://github.com/GuptaDivij/Leetcode/tree/master/0886-score-of-parentheses) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/GuptaDivij/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
 ## Design
 |  |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0720-longest-word-in-dictionary](https://github.com/GuptaDivij/Leetcode/tree/master/0720-longest-word-in-dictionary) |
 | [0807-custom-sort-string](https://github.com/GuptaDivij/Leetcode/tree/master/0807-custom-sort-string) |
 | [0862-find-and-replace-in-string](https://github.com/GuptaDivij/Leetcode/tree/master/0862-find-and-replace-in-string) |
+| [0886-score-of-parentheses](https://github.com/GuptaDivij/Leetcode/tree/master/0886-score-of-parentheses) |
 | [0979-di-string-match](https://github.com/GuptaDivij/Leetcode/tree/master/0979-di-string-match) |
 | [1023-time-based-key-value-store](https://github.com/GuptaDivij/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1129-longest-string-chain](https://github.com/GuptaDivij/Leetcode/tree/master/1129-longest-string-chain) |
