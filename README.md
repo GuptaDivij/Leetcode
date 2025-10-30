@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0883-car-fleet](https://github.com/GuptaDivij/Leetcode/tree/master/0883-car-fleet) |
 | [0886-score-of-parentheses](https://github.com/GuptaDivij/Leetcode/tree/master/0886-score-of-parentheses) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/GuptaDivij/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/GuptaDivij/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 ## Design
 |  |
 | ------- |
@@ -303,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/GuptaDivij/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/GuptaDivij/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/GuptaDivij/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1813-maximum-erasure-value](https://github.com/GuptaDivij/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/GuptaDivij/Leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/GuptaDivij/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
@@ -333,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/GuptaDivij/Leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/GuptaDivij/Leetcode/tree/master/0883-car-fleet) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/GuptaDivij/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/GuptaDivij/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 ## Sorting
 |  |
 | ------- |
@@ -490,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0979-di-string-match](https://github.com/GuptaDivij/Leetcode/tree/master/0979-di-string-match) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/GuptaDivij/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/GuptaDivij/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/GuptaDivij/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/GuptaDivij/Leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/GuptaDivij/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/GuptaDivij/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -758,6 +762,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1121-partition-array-for-maximum-sum](https://github.com/GuptaDivij/Leetcode/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/GuptaDivij/Leetcode/tree/master/1129-longest-string-chain) |
 | [1250-longest-common-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/1250-longest-common-subsequence) |
+| [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/GuptaDivij/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/GuptaDivij/Leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/GuptaDivij/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/GuptaDivij/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
