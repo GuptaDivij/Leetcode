@@ -1,110 +1,67 @@
-class Vertex {
-
-    public int vertexId;
-    public boolean offline = false;
-    public int powerGridId = -1;
-
-    public Vertex() {}
-
-    public Vertex(int id) {
-        this.vertexId = id;
-    }
-}
-
-class Graph {
-
-    private Map<Integer, List<Integer>> adj;
-    private Map<Integer, Vertex> vertices;
-
-    public Graph() {
-        this.adj = new HashMap<>();
-        this.vertices = new HashMap<>();
-    }
-
-    public void addVertex(int id, Vertex value) {
-        this.vertices.put(id, value);
-        this.adj.put(id, new ArrayList<>());
-    }
-
-    public void addEdge(int u, int v) {
-        this.adj.get(u).add(v);
-        this.adj.get(v).add(u);
-    }
-
-    public Vertex getVertexValue(int id) {
-        return this.vertices.get(id);
-    }
-
-    public List<Integer> getConnectedVertices(int id) {
-        return this.adj.get(id);
-    }
-}
+import java.util.*;
 
 class Solution {
-
-    private void traverse(
-        Vertex u,
-        int powerGridId,
-        PriorityQueue<Integer> powerGrid,
-        Graph graph
-    ) {
-        u.powerGridId = powerGridId;
-        powerGrid.add(u.vertexId);
-        for (int vid : graph.getConnectedVertices(u.vertexId)) {
-            Vertex v = graph.getVertexValue(vid);
-            if (v.powerGridId == -1) {
-                traverse(v, powerGridId, powerGrid, graph);
-            }
-        }
-    }
-
     public int[] processQueries(int c, int[][] connections, int[][] queries) {
-        Graph graph = new Graph();
-        for (int i = 0; i < c; i++) {
-            Vertex v = new Vertex(i + 1);
-            graph.addVertex(i + 1, v);
+        HashMap<Integer, Integer> rackIds = new HashMap<>();
+        boolean[] offline = new boolean[c + 1];
+        ArrayList<Integer>[] graph = new ArrayList[c + 1];
+        for (int i = 1; i <= c; i++) {
+            graph[i] = new ArrayList<>();
+        }
+        for (int[] connection : connections) {
+            int p1 = connection[0];
+            int p2 = connection[1];
+            graph[p1].add(p2);
+            graph[p2].add(p1);
         }
 
-        for (int[] conn : connections) {
-            graph.addEdge(conn[0], conn[1]);
-        }
+        ArrayList<PriorityQueue<Integer>> racks = new ArrayList<>();
+        int rackId = 0;
+        for (int i = 1; i <= c; i++) {
+            if (!rackIds.containsKey(i)) {
+                Queue<Integer> queue = new LinkedList<>();
+                PriorityQueue<Integer> pq = new PriorityQueue<>();
+                queue.add(i);
+                rackIds.put(i, rackId);
 
-        List<PriorityQueue<Integer>> powerGrids = new ArrayList<>();
-        for (int i = 1, powerGridId = 0; i <= c; i++) {
-            Vertex v = graph.getVertexValue(i);
-            if (v.powerGridId == -1) {
-                PriorityQueue<Integer> powerGrid = new PriorityQueue<>();
-                traverse(v, powerGridId, powerGrid, graph);
-                powerGrids.add(powerGrid);
-                powerGridId++;
-            }
-        }
-
-        List<Integer> ans = new ArrayList<>();
-        for (int[] q : queries) {
-            int op = q[0];
-            int x = q[1];
-            if (op == 1) {
-                Vertex vertex = graph.getVertexValue(x);
-                if (!vertex.offline) {
-                    ans.add(x);
-                } else {
-                    PriorityQueue<Integer> powerGrid = powerGrids.get(
-                        vertex.powerGridId
-                    );
-                    while (
-                        !powerGrid.isEmpty() &&
-                        graph.getVertexValue(powerGrid.peek()).offline
-                    ) {
-                        powerGrid.poll();
+                while (!queue.isEmpty()) {
+                    int curr = queue.poll();
+                    pq.add(curr);
+                    for (int vertex : graph[curr]) {
+                        if (!rackIds.containsKey(vertex)) {
+                            rackIds.put(vertex, rackId);
+                            queue.add(vertex);
+                        }
                     }
-                    ans.add(!powerGrid.isEmpty() ? powerGrid.peek() : -1);
                 }
-            } else if (op == 2) {
-                graph.getVertexValue(x).offline = true;
+
+                racks.add(pq);
+                rackId++;
             }
         }
 
-        return ans.stream().mapToInt(Integer::intValue).toArray();
+        ArrayList<Integer> res = new ArrayList<>();
+        for (int[] query : queries) {
+            int op = query[0];
+            int vertex = query[1];
+            if (op == 2) {
+                offline[vertex] = true;
+            } else {
+                if(!offline[vertex]) {
+                    res.add(vertex);
+                    continue;
+                }
+                int rid = rackIds.get(vertex);
+                PriorityQueue<Integer> rack = racks.get(rid);
+                while (!rack.isEmpty() && offline[rack.peek()]) {
+                    rack.poll();
+                }
+                res.add(rack.isEmpty() ? -1 : rack.peek());
+            }
+        }
+
+        int[] ans = new int[res.size()];
+        for (int i = 0; i < res.size(); i++) ans[i] = res.get(i);
+        return ans;
     }
 }
