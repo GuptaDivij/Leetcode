@@ -301,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1129-longest-string-chain](https://github.com/GuptaDivij/Leetcode/tree/master/1129-longest-string-chain) |
 | [1217-relative-sort-array](https://github.com/GuptaDivij/Leetcode/tree/master/1217-relative-sort-array) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/GuptaDivij/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/GuptaDivij/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/GuptaDivij/Leetcode/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/GuptaDivij/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
@@ -423,6 +424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/GuptaDivij/Leetcode/tree/master/0733-flood-fill) |
 | [0967-minimum-falling-path-sum](https://github.com/GuptaDivij/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/GuptaDivij/Leetcode/tree/master/1036-rotting-oranges) |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/GuptaDivij/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/GuptaDivij/Leetcode/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 ## Linked List
 |  |
@@ -632,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0871-keys-and-rooms](https://github.com/GuptaDivij/Leetcode/tree/master/0871-keys-and-rooms) |
 | [1035-cousins-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1036-rotting-oranges](https://github.com/GuptaDivij/Leetcode/tree/master/1036-rotting-oranges) |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/GuptaDivij/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/GuptaDivij/Leetcode/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [3863-power-grid-maintenance](https://github.com/GuptaDivij/Leetcode/tree/master/3863-power-grid-maintenance) |
@@ -697,6 +700,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/GuptaDivij/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/GuptaDivij/Leetcode/tree/master/1127-last-stone-weight) |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/GuptaDivij/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/GuptaDivij/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/GuptaDivij/Leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2479-meeting-rooms-iii](https://github.com/GuptaDivij/Leetcode/tree/master/2479-meeting-rooms-iii) |
@@ -851,6 +855,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/GuptaDivij/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0871-keys-and-rooms](https://github.com/GuptaDivij/Leetcode/tree/master/0871-keys-and-rooms) |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/GuptaDivij/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [3863-power-grid-maintenance](https://github.com/GuptaDivij/Leetcode/tree/master/3863-power-grid-maintenance) |
 ## Topological Sort
 |  |
@@ -877,4 +882,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3791-fruits-into-baskets-iii](https://github.com/GuptaDivij/Leetcode/tree/master/3791-fruits-into-baskets-iii) |
 | [3863-power-grid-maintenance](https://github.com/GuptaDivij/Leetcode/tree/master/3863-power-grid-maintenance) |
+## Shortest Path
+|  |
+| ------- |
+| [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/GuptaDivij/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 <!---LeetCode Topics End-->
