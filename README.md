@@ -913,5 +913,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/GuptaDivij/Leetcode/tree/master/0207-course-schedule) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/GuptaDivij/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 <!---LeetCode Topics End-->
