@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0690-employee-importance](https://github.com/GuptaDivij/Leetcode/tree/master/0690-employee-importance) |
 | [0720-longest-word-in-dictionary](https://github.com/GuptaDivij/Leetcode/tree/master/0720-longest-word-in-dictionary) |
 | [0740-delete-and-earn](https://github.com/GuptaDivij/Leetcode/tree/master/0740-delete-and-earn) |
+| [0763-partition-labels](https://github.com/GuptaDivij/Leetcode/tree/master/0763-partition-labels) |
 | [0807-custom-sort-string](https://github.com/GuptaDivij/Leetcode/tree/master/0807-custom-sort-string) |
 | [0816-design-hashset](https://github.com/GuptaDivij/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/GuptaDivij/Leetcode/tree/master/0817-design-hashmap) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/GuptaDivij/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0648-replace-words](https://github.com/GuptaDivij/Leetcode/tree/master/0648-replace-words) |
 | [0720-longest-word-in-dictionary](https://github.com/GuptaDivij/Leetcode/tree/master/0720-longest-word-in-dictionary) |
+| [0763-partition-labels](https://github.com/GuptaDivij/Leetcode/tree/master/0763-partition-labels) |
 | [0807-custom-sort-string](https://github.com/GuptaDivij/Leetcode/tree/master/0807-custom-sort-string) |
 | [0862-find-and-replace-in-string](https://github.com/GuptaDivij/Leetcode/tree/master/0862-find-and-replace-in-string) |
 | [0886-score-of-parentheses](https://github.com/GuptaDivij/Leetcode/tree/master/0886-score-of-parentheses) |
@@ -489,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0647-palindromic-substrings](https://github.com/GuptaDivij/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0658-find-k-closest-elements](https://github.com/GuptaDivij/Leetcode/tree/master/0658-find-k-closest-elements) |
+| [0763-partition-labels](https://github.com/GuptaDivij/Leetcode/tree/master/0763-partition-labels) |
 | [0979-di-string-match](https://github.com/GuptaDivij/Leetcode/tree/master/0979-di-string-match) |
 | [1129-longest-string-chain](https://github.com/GuptaDivij/Leetcode/tree/master/1129-longest-string-chain) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/GuptaDivij/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -517,6 +520,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/GuptaDivij/Leetcode/tree/master/0134-gas-station) |
 | [0409-longest-palindrome](https://github.com/GuptaDivij/Leetcode/tree/master/0409-longest-palindrome) |
 | [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
+| [0763-partition-labels](https://github.com/GuptaDivij/Leetcode/tree/master/0763-partition-labels) |
 | [0876-hand-of-straights](https://github.com/GuptaDivij/Leetcode/tree/master/0876-hand-of-straights) |
 | [0979-di-string-match](https://github.com/GuptaDivij/Leetcode/tree/master/0979-di-string-match) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/GuptaDivij/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
