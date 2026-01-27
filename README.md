@@ -306,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/GuptaDivij/Leetcode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/GuptaDivij/Leetcode/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/GuptaDivij/Leetcode/tree/master/0907-koko-eating-bananas) |
+| [0909-snakes-and-ladders](https://github.com/GuptaDivij/Leetcode/tree/master/0909-snakes-and-ladders) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/GuptaDivij/Leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0940-fruit-into-baskets](https://github.com/GuptaDivij/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0948-sort-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0948-sort-an-array) |
@@ -443,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/GuptaDivij/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/GuptaDivij/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/GuptaDivij/Leetcode/tree/master/0733-flood-fill) |
+| [0909-snakes-and-ladders](https://github.com/GuptaDivij/Leetcode/tree/master/0909-snakes-and-ladders) |
 | [0967-minimum-falling-path-sum](https://github.com/GuptaDivij/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/GuptaDivij/Leetcode/tree/master/1036-rotting-oranges) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/GuptaDivij/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -660,6 +662,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/GuptaDivij/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/GuptaDivij/Leetcode/tree/master/0733-flood-fill) |
 | [0871-keys-and-rooms](https://github.com/GuptaDivij/Leetcode/tree/master/0871-keys-and-rooms) |
+| [0909-snakes-and-ladders](https://github.com/GuptaDivij/Leetcode/tree/master/0909-snakes-and-ladders) |
 | [1035-cousins-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1036-rotting-oranges](https://github.com/GuptaDivij/Leetcode/tree/master/1036-rotting-oranges) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/GuptaDivij/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
