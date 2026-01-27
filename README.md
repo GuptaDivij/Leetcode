@@ -313,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0948-sort-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0948-sort-an-array) |
 | [0967-minimum-falling-path-sum](https://github.com/GuptaDivij/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [0979-di-string-match](https://github.com/GuptaDivij/Leetcode/tree/master/0979-di-string-match) |
+| [1007-minimum-domino-rotations-for-equal-row](https://github.com/GuptaDivij/Leetcode/tree/master/1007-minimum-domino-rotations-for-equal-row) |
 | [1014-k-closest-points-to-origin](https://github.com/GuptaDivij/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1025-minimum-cost-for-tickets](https://github.com/GuptaDivij/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/GuptaDivij/Leetcode/tree/master/1036-rotting-oranges) |
@@ -527,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0763-partition-labels](https://github.com/GuptaDivij/Leetcode/tree/master/0763-partition-labels) |
 | [0876-hand-of-straights](https://github.com/GuptaDivij/Leetcode/tree/master/0876-hand-of-straights) |
 | [0979-di-string-match](https://github.com/GuptaDivij/Leetcode/tree/master/0979-di-string-match) |
+| [1007-minimum-domino-rotations-for-equal-row](https://github.com/GuptaDivij/Leetcode/tree/master/1007-minimum-domino-rotations-for-equal-row) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/GuptaDivij/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/GuptaDivij/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/GuptaDivij/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
