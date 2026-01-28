@@ -1,4 +1,4 @@
-// O(n * logLen)
+// O(n * log(n))
 
 class Solution {
     public String[] reorderLogFiles(String[] logs) {
