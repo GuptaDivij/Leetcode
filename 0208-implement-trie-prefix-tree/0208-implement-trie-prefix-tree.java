@@ -1,53 +1,42 @@
 class Trie {
 
     class TrieNode{
-        boolean inEnd;
+        boolean isEnd;
         TrieNode[] children;
-
         public TrieNode(){
-            inEnd = false;
+            isEnd = false;
             children = new TrieNode[26];
-        }
+        }   
     }
 
     TrieNode root;
-
     public Trie() {
         root = new TrieNode();
     }
     
     public void insert(String word) {
         TrieNode curr = root;
-        for(int i = 0;i<word.length(); i++){
-            int child = word.charAt(i)-'a';
-            if(curr.children[child]==null){
-                curr.children[child]= new TrieNode();
-            }
-            curr = curr.children[child];
+        for(int i = 0; i<word.length(); i++){
+            if(curr.children[word.charAt(i)-'a'] == null) curr.children[word.charAt(i)-'a'] = new TrieNode();
+            curr = curr.children[word.charAt(i)-'a'];
         }
-        curr.inEnd = true;
+        curr.isEnd = true;
     }
     
     public boolean search(String word) {
         TrieNode curr = root;
-        for(int i = 0;i<word.length(); i++){
-            int child = word.charAt(i)-'a';
-            if(curr.children[child]==null){
-                return false;
-            }
-            curr = curr.children[child];
+        for(int i = 0; i<word.length(); i++){
+            if(curr.children[word.charAt(i)-'a'] == null) return false;
+            curr = curr.children[word.charAt(i)-'a'];
         }
-        return curr.inEnd;
+        return curr.isEnd;
     }
     
-    public boolean startsWith(String prefix) {
+    public boolean startsWith(String word) {
         TrieNode curr = root;
-        for(int i = 0;i<prefix.length(); i++){
-            int child = prefix.charAt(i)-'a';
-            if(curr.children[child]==null){
-                return false;
-            }
-            curr = curr.children[child];
+        for(int i = 0; i<word.length(); i++){
+            if(curr.children[word.charAt(i)-'a'] == null) return false;
+            curr = curr.children[word.charAt(i)-'a'];
         }
         return true;
     }
