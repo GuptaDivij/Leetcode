@@ -1,3 +1,6 @@
+// O(numQueries * avgQueryLen)
+// O(1)
+
 class Solution {
     public List<Boolean> camelMatch(String[] queries, String pattern) {
         List<Boolean> res = new ArrayList<>();
