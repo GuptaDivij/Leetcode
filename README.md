@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2479-meeting-rooms-iii](https://github.com/GuptaDivij/Leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2689-rearranging-fruits](https://github.com/GuptaDivij/Leetcode/tree/master/2689-rearranging-fruits) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/GuptaDivij/Leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
+| [3434-maximum-frequency-after-subarray-operation](https://github.com/GuptaDivij/Leetcode/tree/master/3434-maximum-frequency-after-subarray-operation) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/GuptaDivij/Leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/GuptaDivij/Leetcode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/GuptaDivij/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -353,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2689-rearranging-fruits](https://github.com/GuptaDivij/Leetcode/tree/master/2689-rearranging-fruits) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/GuptaDivij/Leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/GuptaDivij/Leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
+| [3434-maximum-frequency-after-subarray-operation](https://github.com/GuptaDivij/Leetcode/tree/master/3434-maximum-frequency-after-subarray-operation) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/GuptaDivij/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/GuptaDivij/Leetcode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/GuptaDivij/Leetcode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
@@ -551,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/GuptaDivij/Leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/GuptaDivij/Leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/GuptaDivij/Leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
+| [3434-maximum-frequency-after-subarray-operation](https://github.com/GuptaDivij/Leetcode/tree/master/3434-maximum-frequency-after-subarray-operation) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/GuptaDivij/Leetcode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/GuptaDivij/Leetcode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/GuptaDivij/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -830,6 +833,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/GuptaDivij/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/GuptaDivij/Leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
+| [3434-maximum-frequency-after-subarray-operation](https://github.com/GuptaDivij/Leetcode/tree/master/3434-maximum-frequency-after-subarray-operation) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/GuptaDivij/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/GuptaDivij/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Enumeration
@@ -838,6 +842,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2140-longest-subsequence-repeated-k-times](https://github.com/GuptaDivij/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/GuptaDivij/Leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/GuptaDivij/Leetcode/tree/master/2202-sum-of-k-mirror-numbers) |
+| [3434-maximum-frequency-after-subarray-operation](https://github.com/GuptaDivij/Leetcode/tree/master/3434-maximum-frequency-after-subarray-operation) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/GuptaDivij/Leetcode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 ## Prefix Sum
 |  |
@@ -845,6 +850,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/GuptaDivij/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0525-contiguous-array](https://github.com/GuptaDivij/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/GuptaDivij/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [3434-maximum-frequency-after-subarray-operation](https://github.com/GuptaDivij/Leetcode/tree/master/3434-maximum-frequency-after-subarray-operation) |
 | [3618-find-the-original-typed-string-ii](https://github.com/GuptaDivij/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Data Stream
 |  |
