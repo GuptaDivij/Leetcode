@@ -620,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0690-employee-importance](https://github.com/GuptaDivij/Leetcode/tree/master/0690-employee-importance) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0938-range-sum-of-bst](https://github.com/GuptaDivij/Leetcode/tree/master/0938-range-sum-of-bst) |
+| [0979-distribute-coins-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0979-distribute-coins-in-binary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/GuptaDivij/Leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
@@ -659,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/GuptaDivij/Leetcode/tree/master/0733-flood-fill) |
 | [0871-keys-and-rooms](https://github.com/GuptaDivij/Leetcode/tree/master/0871-keys-and-rooms) |
 | [0938-range-sum-of-bst](https://github.com/GuptaDivij/Leetcode/tree/master/0938-range-sum-of-bst) |
+| [0979-distribute-coins-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0979-distribute-coins-in-binary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/GuptaDivij/Leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
@@ -722,6 +724,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/GuptaDivij/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0938-range-sum-of-bst](https://github.com/GuptaDivij/Leetcode/tree/master/0938-range-sum-of-bst) |
+| [0979-distribute-coins-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0979-distribute-coins-in-binary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/GuptaDivij/Leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
