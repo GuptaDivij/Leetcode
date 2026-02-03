@@ -1,3 +1,10 @@
+// Time Complexity : O(n^2)
+// Space Complexity : O(nlogn) for sorting array
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Approach : I sort the array and iterate over the array, fix one element idx and then use two pointers from left and right to find elements that will give me the right sum. When I find the right indices, I make sure to iterate over till there are duplicates.
+
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
