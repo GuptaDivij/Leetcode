@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/GuptaDivij/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/GuptaDivij/Leetcode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
+| [0472-concatenated-words](https://github.com/GuptaDivij/Leetcode/tree/master/0472-concatenated-words) |
 | [0648-replace-words](https://github.com/GuptaDivij/Leetcode/tree/master/0648-replace-words) |
 | [0720-longest-word-in-dictionary](https://github.com/GuptaDivij/Leetcode/tree/master/0720-longest-word-in-dictionary) |
 | [1023-camelcase-matching](https://github.com/GuptaDivij/Leetcode/tree/master/1023-camelcase-matching) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/GuptaDivij/Leetcode/tree/master/0394-decode-string) |
 | [0409-longest-palindrome](https://github.com/GuptaDivij/Leetcode/tree/master/0409-longest-palindrome) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/GuptaDivij/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0472-concatenated-words](https://github.com/GuptaDivij/Leetcode/tree/master/0472-concatenated-words) |
 | [0647-palindromic-substrings](https://github.com/GuptaDivij/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0648-replace-words](https://github.com/GuptaDivij/Leetcode/tree/master/0648-replace-words) |
 | [0720-longest-word-in-dictionary](https://github.com/GuptaDivij/Leetcode/tree/master/0720-longest-word-in-dictionary) |
@@ -296,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/GuptaDivij/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0472-concatenated-words](https://github.com/GuptaDivij/Leetcode/tree/master/0472-concatenated-words) |
 | [0494-target-sum](https://github.com/GuptaDivij/Leetcode/tree/master/0494-target-sum) |
 | [0498-diagonal-traverse](https://github.com/GuptaDivij/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0518-coin-change-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0518-coin-change-ii) |
@@ -396,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/GuptaDivij/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/GuptaDivij/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0472-concatenated-words](https://github.com/GuptaDivij/Leetcode/tree/master/0472-concatenated-words) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0594-longest-harmonious-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/GuptaDivij/Leetcode/tree/master/0621-task-scheduler) |
@@ -661,6 +665,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/GuptaDivij/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0341-flatten-nested-list-iterator](https://github.com/GuptaDivij/Leetcode/tree/master/0341-flatten-nested-list-iterator) |
 | [0417-pacific-atlantic-water-flow](https://github.com/GuptaDivij/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0472-concatenated-words](https://github.com/GuptaDivij/Leetcode/tree/master/0472-concatenated-words) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/GuptaDivij/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0529-minesweeper](https://github.com/GuptaDivij/Leetcode/tree/master/0529-minesweeper) |
 | [0543-diameter-of-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0543-diameter-of-binary-tree) |
@@ -836,6 +841,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/GuptaDivij/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0413-arithmetic-slices](https://github.com/GuptaDivij/Leetcode/tree/master/0413-arithmetic-slices) |
 | [0416-partition-equal-subset-sum](https://github.com/GuptaDivij/Leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0472-concatenated-words](https://github.com/GuptaDivij/Leetcode/tree/master/0472-concatenated-words) |
 | [0494-target-sum](https://github.com/GuptaDivij/Leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0518-coin-change-ii) |
 | [0526-beautiful-arrangement](https://github.com/GuptaDivij/Leetcode/tree/master/0526-beautiful-arrangement) |
