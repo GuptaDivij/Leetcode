@@ -1,27 +1,47 @@
 class Solution {
+
     public int firstMissingPositive(int[] nums) {
-        // missing will be from 1 to n
-        // keep swapping till not in place
         int n = nums.length;
-        
-        // Place each number at its correct position (nums[i] should be at index nums[i]-1)
+        boolean contains1 = false;
+
+        // Replace negative numbers, zeros,
+        // and numbers larger than n with 1s.
+        // After this nums contains only positive numbers.
         for (int i = 0; i < n; i++) {
-            while (nums[i] > 0 && nums[i] <= n && nums[nums[i] - 1] != nums[i]) {
-                // Swap nums[i] with nums[nums[i] - 1]
-                int temp = nums[nums[i] - 1];
-                nums[nums[i] - 1] = nums[i];
-                nums[i] = temp;
+            // Check whether 1 is in the original array
+            if (nums[i] == 1) {
+                contains1 = true;
+            }
+            if (nums[i] <= 0 || nums[i] > n) {
+                nums[i] = 1;
             }
         }
-        
-        // Find the first missing positive
+
+        if (!contains1) return 1;
+
+        // Mark whether integers 1 to n are in nums
+        // Use index as a hash key and negative sign as a presence detector.
         for (int i = 0; i < n; i++) {
-            if (nums[i] != i + 1) {
-                return i + 1;
+            int value = Math.abs(nums[i]);
+            if (value == n) {
+                nums[0] = -Math.abs(nums[0]);
+            } else {
+                nums[value] = -Math.abs(nums[value]);
             }
         }
-        
-        // If all positions are filled correctly, return n + 1
+
+        // First positive in nums is smallest missing positive integer
+        for (int i = 1; i < n; i++) {
+            if (nums[i] > 0) return i;
+        }
+
+        // nums[0] stores whether n is in nums
+        if (nums[0] > 0) {
+            return n;
+        }
+
+        // If nums contains all elements 1 to n
+        // the smallest missing positive number is n + 1
         return n + 1;
     }
 }
