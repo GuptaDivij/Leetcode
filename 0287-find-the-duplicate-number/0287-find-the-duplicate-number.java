@@ -1,7 +1,7 @@
 class Solution {
     public int findDuplicate(int[] nums) {
         int len = nums.length;
-        for (int i = 0; i < len; ) {
+        for (int i = 0; i < len;) {
             int n = nums[i];
             if (n == i + 1) {
                 i++;
