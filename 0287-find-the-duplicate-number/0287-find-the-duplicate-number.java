@@ -1,17 +1,22 @@
 class Solution {
     public int findDuplicate(int[] nums) {
-        int len = nums.length;
-        for (int i = 0; i < len;) {
-            int n = nums[i];
-            if (n == i + 1) {
-                i++;
-            } else if (n == nums[n - 1]) {
-                return n;
-            } else {
-                nums[i] = nums[n - 1];
-                nums[n - 1] = n;
-            }
+        int slow = 0;
+        int fast = 0;
+        while(true){
+            slow = nums[slow];
+            fast = nums[nums[fast]];
+            if(slow==fast) break;
         }
-        return 0;
+        slow = 0;
+        while(slow!=fast){
+            slow = nums[slow];
+            fast = nums[fast];
+        }
+        return slow;
     }
 }
+
+// i-> node
+// nums[i] -> next
+// [1, 3, 4, 2, 2]
+// 0 -> 1 -> 3 -> 2 -> 4 -> 2 -> 4 -> keep going like this 
