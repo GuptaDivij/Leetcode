@@ -27,3 +27,23 @@ public class Solution {
         return fast;
     }
 }
+
+// slow and fast meet at cycle + j
+// i + j moves by slow
+// fast must have covered some cycles in loop to meet again here
+// so technically, fast covered i (to get to loop) + n*x + j
+// where x is size of loop and nx cycles of the loop have been covered
+// so fast covered i + nx + j 
+// since fast is 2x of slow, distance should be 2x too
+// i + nx + j = 2(i+j)
+// i + nx + j = 2i + 2j
+// i = nx - j
+// now, slow is at 0
+// slow moves i steps to reach to beginning of loop
+// so slow is now at i
+// fast currently at nx + j inside the loop, note nx is basically back to start so 0, but let's keep it here for now
+// so let's move fast ahead by i
+// fast will be at -> nx + j + i inside the loop
+// replace i with value
+// nx + j + (nx - j) = 2nx which is back to start
+// so they both meet at the start
