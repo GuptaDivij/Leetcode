@@ -21,7 +21,6 @@ class Solution {
             int[] cur = pq.poll();
             int ch = cur[0];
             int count = cur[1];
-
             while (count > 0) {
                 if (idx >= n) idx = 1; 
                 res[idx] = (char) (ch + 'a');
