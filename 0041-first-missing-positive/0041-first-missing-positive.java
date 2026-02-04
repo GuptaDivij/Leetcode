@@ -1,6 +1,6 @@
 class Solution {
     public int firstMissingPositive(int[] nums) {
-        // will be from 
+        // missing will be from 1 to n
         // keep swapping till not in place
         int n = nums.length;
         
