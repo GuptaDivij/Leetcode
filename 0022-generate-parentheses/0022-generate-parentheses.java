@@ -1,23 +1,25 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
-        List<String> res = new ArrayList<String>();
-        recurse(res, 0, 0, "", n);
-        return res;
+        List<String> answer = new ArrayList<>();
+        backTrack(answer, n, 0, 0, new StringBuilder());
+        return answer;
     }
-    
-    public void recurse(List<String> res, int left, int right, String s, int n) {
-        if (s.length() == n * 2) {
-            res.add(s);
+
+    public void backTrack(List<String> ans, int n, int open, int close, StringBuilder curr){
+        if(curr.length()==2*n){
+            ans.add(curr.toString());
             return;
         }
-        
-        if (left < n) {
-            recurse(res, left + 1, right, s + "(", n);
+
+        if(open<n){
+            curr.append("(");
+            backTrack(ans, n, open+1, close, curr);
+            curr.deleteCharAt(curr.length()-1);
         }
-        
-        if (right < left) {
-            recurse(res, left, right + 1, s + ")", n);
+        if(close<open){
+            curr.append(")");
+            backTrack(ans, n, open, close+1, curr);
+            curr.deleteCharAt(curr.length()-1);
         }
     }
-	// See above tree diagram with parameters (left, right, s) for better understanding
 }
