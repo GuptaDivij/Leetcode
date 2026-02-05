@@ -3,7 +3,7 @@
 // Did this code successfully run on Leetcode : Yes
 // Any problem you faced while coding this : No
 
-// Approach : I use the properties of BST -> left<curr<right in an inorder way -> this will always be sorted. So I traverse in order and keep trakc of the previous seen element, this should always be smaller than next since it is sorted. If at some point this is not true, it means this is one of the swapped elements. The first time it happens we find the larger item stored in prev -> this is first mismatched, we also store the curr as second as it can be the second mismatch. If it happens for the second time, curr is now a smaller value which was supposed to be seen before, so this is the second misplaced element. After running this I simply swap these two nodes.
+// Approach : I use the properties of BST -> left<curr<right in an inorder way -> this will always be sorted. So I traverse in order and keep track of the previous seen element, this should always be smaller than next since it is sorted. If at some point this is not true, it means this is one of the swapped elements. The first time it happens we find the larger item stored in prev -> this is first mismatched, we also store the curr as second as it can be the second mismatch. If it happens for the second time, curr is now a smaller value which was supposed to be seen before, so this is the second misplaced element. After running this I simply swap these two nodes.
 
 /**
  * Definition for a binary tree node.
