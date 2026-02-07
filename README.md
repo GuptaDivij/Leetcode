@@ -376,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-find-lucky-integer-in-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/GuptaDivij/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/GuptaDivij/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/GuptaDivij/Leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [1813-maximum-erasure-value](https://github.com/GuptaDivij/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/GuptaDivij/Leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/GuptaDivij/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
@@ -446,6 +447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1217-relative-sort-array](https://github.com/GuptaDivij/Leetcode/tree/master/1217-relative-sort-array) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/GuptaDivij/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/GuptaDivij/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/GuptaDivij/Leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/GuptaDivij/Leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/GuptaDivij/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2479-meeting-rooms-iii](https://github.com/GuptaDivij/Leetcode/tree/master/2479-meeting-rooms-iii) |
@@ -480,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/GuptaDivij/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/GuptaDivij/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/GuptaDivij/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/GuptaDivij/Leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/GuptaDivij/Leetcode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/GuptaDivij/Leetcode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/GuptaDivij/Leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
@@ -903,6 +906,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/GuptaDivij/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/GuptaDivij/Leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
+| [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/GuptaDivij/Leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/GuptaDivij/Leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [3434-maximum-frequency-after-subarray-operation](https://github.com/GuptaDivij/Leetcode/tree/master/3434-maximum-frequency-after-subarray-operation) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/GuptaDivij/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
