@@ -14,23 +14,24 @@
  * }
  */
 class Solution {
-    private int ans;
+    int max;
     public int maxPathSum(TreeNode root) {
-        ans = Integer.MIN_VALUE;
-        helper(root);
-        return ans;
+        // avoid negatives -> issue is at root then we won't be able to find left and right sum
+        if(root == null) return 0;
+        max = Integer.MIN_VALUE;
+        find(root);
+        return max;
     }
-    public int helper(TreeNode root){
-        if(root == null){
-            return 0;
-        }
-        // we find the maximum on the left side
-        int gainFromLeft = Math.max(helper(root.left), 0);
-        // we find the maximum on the right side
-        int gainFromRight = Math.max(helper(root.right), 0);
-        // ans is max of current ans or left + right + mid
-        ans = Math.max(ans, gainFromLeft + gainFromRight + root.val);
-        // for finding left and right, we return max of left or right
-        return Math.max(gainFromLeft + root.val, gainFromRight + root.val);
+    public int find(TreeNode root){
+        if(root==null) return 0;
+        int l = find(root.left);
+        int r = find(root.right);
+        int curr = Math.max(root.val, Math.max(root.val + Math.max(l, r), root.val + l + r));
+        max = Math.max(max, curr);
+        // cannot send 2 way left and right in sendback
+        return Math.max(root.val, root.val + Math.max(l, r));
     }
 }
+
+// at root, left = 9
+// max = 9
