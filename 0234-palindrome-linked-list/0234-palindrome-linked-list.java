@@ -33,4 +33,3 @@ class Solution {
 }
 
 // Basically go to the mid, count the number of elements. Reverse it from mid to end. Now move ahead each point with 2 linkedlists
-// 1 2 2 2 1
