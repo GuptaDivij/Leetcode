@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2689-rearranging-fruits](https://github.com/GuptaDivij/Leetcode/tree/master/2689-rearranging-fruits) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/GuptaDivij/Leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3434-maximum-frequency-after-subarray-operation](https://github.com/GuptaDivij/Leetcode/tree/master/3434-maximum-frequency-after-subarray-operation) |
+| [3719-longest-balanced-subarray-i](https://github.com/GuptaDivij/Leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/GuptaDivij/Leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/GuptaDivij/Leetcode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/GuptaDivij/Leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -406,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3434-maximum-frequency-after-subarray-operation](https://github.com/GuptaDivij/Leetcode/tree/master/3434-maximum-frequency-after-subarray-operation) |
 | [3439-reschedule-meetings-for-maximum-free-time-i](https://github.com/GuptaDivij/Leetcode/tree/master/3439-reschedule-meetings-for-maximum-free-time-i) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/GuptaDivij/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
+| [3719-longest-balanced-subarray-i](https://github.com/GuptaDivij/Leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/GuptaDivij/Leetcode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/GuptaDivij/Leetcode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/GuptaDivij/Leetcode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
@@ -820,6 +822,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/GuptaDivij/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0948-sort-an-array](https://github.com/GuptaDivij/Leetcode/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/GuptaDivij/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [3719-longest-balanced-subarray-i](https://github.com/GuptaDivij/Leetcode/tree/master/3719-longest-balanced-subarray-i) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -941,6 +944,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/GuptaDivij/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [3434-maximum-frequency-after-subarray-operation](https://github.com/GuptaDivij/Leetcode/tree/master/3434-maximum-frequency-after-subarray-operation) |
 | [3618-find-the-original-typed-string-ii](https://github.com/GuptaDivij/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
+| [3719-longest-balanced-subarray-i](https://github.com/GuptaDivij/Leetcode/tree/master/3719-longest-balanced-subarray-i) |
 ## Data Stream
 |  |
 | ------- |
@@ -1032,6 +1036,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Segment Tree
 |  |
 | ------- |
+| [3719-longest-balanced-subarray-i](https://github.com/GuptaDivij/Leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3791-fruits-into-baskets-iii](https://github.com/GuptaDivij/Leetcode/tree/master/3791-fruits-into-baskets-iii) |
 ## Ordered Set
 |  |
