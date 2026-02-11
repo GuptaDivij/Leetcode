@@ -20,48 +20,49 @@ class Solution {
             jobs[i] = new Job(startTime[i], endTime[i], profit[i]);
         }
 
-        // Sort by end time
-        Arrays.sort(jobs, (a, b) -> a.end - b.end);
+        // Sort by start time
+        Arrays.sort(jobs, (a, b) -> a.start - b.start);
 
         int[] dp = new int[n];
-        dp[0] = jobs[0].profit;
 
-        for (int i = 1; i < n; i++) {
+        dp[n - 1] = jobs[n - 1].profit;
 
-            // Option 1: skip job
-            int exclude = dp[i - 1];
+        for (int i = n - 2; i >= 0; i--) {
 
-            // Option 2: take job
+            // Option 1: skip current job
+            int exclude = dp[i + 1];
+
+            // Option 2: take current job
             int include = jobs[i].profit;
 
-            int prevIndex = findLastNonOverlapping(jobs, i);
+            int nextIndex = findNextNonOverlapping(jobs, i);
 
-            if (prevIndex != -1) {
-                include += dp[prevIndex];
+            if (nextIndex != -1) {
+                include += dp[nextIndex];
             }
 
             dp[i] = Math.max(exclude, include);
         }
 
-        return dp[n - 1];
+        return dp[0];
     }
 
-    // Binary search for rightmost job whose end <= jobs[i].start
-    private int findLastNonOverlapping(Job[] jobs, int i) {
+    // Binary search for first job whose start >= jobs[i].end
+    private int findNextNonOverlapping(Job[] jobs, int i) {
 
-        int left = 0;
-        int right = i - 1;
-        int targetStart = jobs[i].start;
+        int left = i + 1;
+        int right = jobs.length - 1;
+        int targetEnd = jobs[i].end;
         int result = -1;
 
         while (left <= right) {
             int mid = left + (right - left) / 2;
 
-            if (jobs[mid].end <= targetStart) {
-                result = mid;       // possible answer
-                left = mid + 1;     // try to find a later valid job
+            if (jobs[mid].start >= targetEnd) {
+                result = mid;
+                right = mid - 1;  // try to find earlier valid job
             } else {
-                right = mid - 1;
+                left = mid + 1;
             }
         }
 
