@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0763-partition-labels](https://github.com/GuptaDivij/Leetcode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/GuptaDivij/Leetcode/tree/master/0767-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/GuptaDivij/Leetcode/tree/master/0807-custom-sort-string) |
+| [0815-bus-routes](https://github.com/GuptaDivij/Leetcode/tree/master/0815-bus-routes) |
 | [0816-design-hashset](https://github.com/GuptaDivij/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/GuptaDivij/Leetcode/tree/master/0817-design-hashmap) |
 | [0862-find-and-replace-in-string](https://github.com/GuptaDivij/Leetcode/tree/master/0862-find-and-replace-in-string) |
@@ -355,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/GuptaDivij/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0769-max-chunks-to-make-sorted](https://github.com/GuptaDivij/Leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0792-binary-search](https://github.com/GuptaDivij/Leetcode/tree/master/0792-binary-search) |
+| [0815-bus-routes](https://github.com/GuptaDivij/Leetcode/tree/master/0815-bus-routes) |
 | [0816-design-hashset](https://github.com/GuptaDivij/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/GuptaDivij/Leetcode/tree/master/0817-design-hashmap) |
 | [0862-find-and-replace-in-string](https://github.com/GuptaDivij/Leetcode/tree/master/0862-find-and-replace-in-string) |
@@ -763,6 +765,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0690-employee-importance](https://github.com/GuptaDivij/Leetcode/tree/master/0690-employee-importance) |
 | [0695-max-area-of-island](https://github.com/GuptaDivij/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/GuptaDivij/Leetcode/tree/master/0733-flood-fill) |
+| [0815-bus-routes](https://github.com/GuptaDivij/Leetcode/tree/master/0815-bus-routes) |
 | [0871-keys-and-rooms](https://github.com/GuptaDivij/Leetcode/tree/master/0871-keys-and-rooms) |
 | [0909-snakes-and-ladders](https://github.com/GuptaDivij/Leetcode/tree/master/0909-snakes-and-ladders) |
 | [0994-rotting-oranges](https://github.com/GuptaDivij/Leetcode/tree/master/0994-rotting-oranges) |
