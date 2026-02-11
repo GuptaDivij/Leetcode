@@ -382,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/GuptaDivij/Leetcode/tree/master/1127-last-stone-weight) |
 | [1129-longest-string-chain](https://github.com/GuptaDivij/Leetcode/tree/master/1129-longest-string-chain) |
 | [1217-relative-sort-array](https://github.com/GuptaDivij/Leetcode/tree/master/1217-relative-sort-array) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/GuptaDivij/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/GuptaDivij/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/GuptaDivij/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1414-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/GuptaDivij/Leetcode/tree/master/1414-shortest-path-in-a-grid-with-obstacles-elimination) |
@@ -460,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/GuptaDivij/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1129-longest-string-chain](https://github.com/GuptaDivij/Leetcode/tree/master/1129-longest-string-chain) |
 | [1217-relative-sort-array](https://github.com/GuptaDivij/Leetcode/tree/master/1217-relative-sort-array) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/GuptaDivij/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/GuptaDivij/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/GuptaDivij/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/GuptaDivij/Leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
@@ -497,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/GuptaDivij/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/GuptaDivij/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1023-time-based-key-value-store](https://github.com/GuptaDivij/Leetcode/tree/master/1023-time-based-key-value-store) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/GuptaDivij/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/GuptaDivij/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/GuptaDivij/Leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/GuptaDivij/Leetcode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
@@ -925,6 +928,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1043-partition-array-for-maximum-sum](https://github.com/GuptaDivij/Leetcode/tree/master/1043-partition-array-for-maximum-sum) |
 | [1121-partition-array-for-maximum-sum](https://github.com/GuptaDivij/Leetcode/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/GuptaDivij/Leetcode/tree/master/1129-longest-string-chain) |
+| [1235-maximum-profit-in-job-scheduling](https://github.com/GuptaDivij/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1250-longest-common-subsequence](https://github.com/GuptaDivij/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/GuptaDivij/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/GuptaDivij/Leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
