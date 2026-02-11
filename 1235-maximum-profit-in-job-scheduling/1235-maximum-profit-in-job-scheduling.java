@@ -1,7 +1,4 @@
-import java.util.*;
-
 class Solution {
-
     class Job {
         int start, end, profit;
         Job(int s, int e, int p) {
@@ -12,7 +9,6 @@ class Solution {
     }
 
     public int jobScheduling(int[] startTime, int[] endTime, int[] profit) {
-
         int n = startTime.length;
         Job[] jobs = new Job[n];
 
@@ -28,7 +24,6 @@ class Solution {
         dp[0] = jobs[0].profit;
 
         for (int i = 1; i < n; i++) {
-
             // Option 1: don't take this job
             dp[i] = dp[i - 1];
 
@@ -37,6 +32,7 @@ class Solution {
 
             // Find last non-overlapping job
             int j = i - 1;
+            // can use binary search here
             while (j >= 0 && jobs[j].end > jobs[i].start) {
                 j--;
             }
@@ -46,6 +42,7 @@ class Solution {
             }
             dp[i] = Math.max(dp[i], includeProfit);
         }
+
         return dp[n - 1];
     }
 }
