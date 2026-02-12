@@ -744,6 +744,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/GuptaDivij/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/GuptaDivij/Leetcode/tree/master/0733-flood-fill) |
 | [0871-keys-and-rooms](https://github.com/GuptaDivij/Leetcode/tree/master/0871-keys-and-rooms) |
+| [0886-possible-bipartition](https://github.com/GuptaDivij/Leetcode/tree/master/0886-possible-bipartition) |
 | [0938-range-sum-of-bst](https://github.com/GuptaDivij/Leetcode/tree/master/0938-range-sum-of-bst) |
 | [0979-distribute-coins-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/0979-distribute-coins-in-binary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1035-cousins-in-binary-tree) |
@@ -777,6 +778,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/GuptaDivij/Leetcode/tree/master/0733-flood-fill) |
 | [0815-bus-routes](https://github.com/GuptaDivij/Leetcode/tree/master/0815-bus-routes) |
 | [0871-keys-and-rooms](https://github.com/GuptaDivij/Leetcode/tree/master/0871-keys-and-rooms) |
+| [0886-possible-bipartition](https://github.com/GuptaDivij/Leetcode/tree/master/0886-possible-bipartition) |
 | [0909-snakes-and-ladders](https://github.com/GuptaDivij/Leetcode/tree/master/0909-snakes-and-ladders) |
 | [0994-rotting-oranges](https://github.com/GuptaDivij/Leetcode/tree/master/0994-rotting-oranges) |
 | [1035-cousins-in-binary-tree](https://github.com/GuptaDivij/Leetcode/tree/master/1035-cousins-in-binary-tree) |
@@ -1073,12 +1075,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/GuptaDivij/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/GuptaDivij/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0886-possible-bipartition](https://github.com/GuptaDivij/Leetcode/tree/master/0886-possible-bipartition) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/GuptaDivij/Leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 ## Union-Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/GuptaDivij/Leetcode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/GuptaDivij/Leetcode/tree/master/0695-max-area-of-island) |
+| [0886-possible-bipartition](https://github.com/GuptaDivij/Leetcode/tree/master/0886-possible-bipartition) |
 ## Randomized
 |  |
 | ------- |
