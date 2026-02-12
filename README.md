@@ -395,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/GuptaDivij/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/GuptaDivij/Leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
 | [1813-maximum-erasure-value](https://github.com/GuptaDivij/Leetcode/tree/master/1813-maximum-erasure-value) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/GuptaDivij/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/GuptaDivij/Leetcode/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/GuptaDivij/Leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/GuptaDivij/Leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
@@ -468,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/GuptaDivij/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/GuptaDivij/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/GuptaDivij/Leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/GuptaDivij/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/GuptaDivij/Leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/GuptaDivij/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2479-meeting-rooms-iii](https://github.com/GuptaDivij/Leetcode/tree/master/2479-meeting-rooms-iii) |
@@ -505,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1235-maximum-profit-in-job-scheduling](https://github.com/GuptaDivij/Leetcode/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/GuptaDivij/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1751-maximum-number-of-events-that-can-be-attended-ii](https://github.com/GuptaDivij/Leetcode/tree/master/1751-maximum-number-of-events-that-can-be-attended-ii) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/GuptaDivij/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/GuptaDivij/Leetcode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/GuptaDivij/Leetcode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/GuptaDivij/Leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
@@ -623,6 +626,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/GuptaDivij/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/GuptaDivij/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/GuptaDivij/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/GuptaDivij/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/GuptaDivij/Leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/GuptaDivij/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/GuptaDivij/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -956,6 +960,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/GuptaDivij/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/GuptaDivij/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/GuptaDivij/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/GuptaDivij/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [3434-maximum-frequency-after-subarray-operation](https://github.com/GuptaDivij/Leetcode/tree/master/3434-maximum-frequency-after-subarray-operation) |
 | [3618-find-the-original-typed-string-ii](https://github.com/GuptaDivij/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/GuptaDivij/Leetcode/tree/master/3719-longest-balanced-subarray-i) |
@@ -1014,6 +1019,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/GuptaDivij/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/GuptaDivij/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1813-maximum-erasure-value](https://github.com/GuptaDivij/Leetcode/tree/master/1813-maximum-erasure-value) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/GuptaDivij/Leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/GuptaDivij/Leetcode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [3439-reschedule-meetings-for-maximum-free-time-i](https://github.com/GuptaDivij/Leetcode/tree/master/3439-reschedule-meetings-for-maximum-free-time-i) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/GuptaDivij/Leetcode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
